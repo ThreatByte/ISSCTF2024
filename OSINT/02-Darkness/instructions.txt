@@ -3,6 +3,6 @@ I have 2 versions. The beach is a nice place to relax and build sand castles. Fi
 
 What is the name of my creator?
 
-
+Submit the challenge using the following format EspionageCTF{xxxxxxxx}
 
 
