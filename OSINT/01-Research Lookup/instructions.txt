@@ -1,5 +1,6 @@
 I was created with good intention! I was created with one goal in mine to destroy hundred of thousands computers.
-After i was created my code was used in other attacks. The lines in my code reached in the hundred thousands. 
+I was first of my kind. After i was created my code was used in other attacks. The lines in my code reached in the hundred thousands. 
+
 What is my name?
 
 Submit the challenge using the following format EspionageCTF{xxxxxxx}
