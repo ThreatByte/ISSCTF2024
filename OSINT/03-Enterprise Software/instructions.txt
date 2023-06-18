@@ -1,0 +1,4 @@
+Massive disruption occured in the cyber security industry in summer of 2023. The severity of it was criticial.
+Three CVEs were created. This language is used to interact with databases. The vulnerability was a zeroday.  
+
+The flag is one of the CVE Numbers.
