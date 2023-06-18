@@ -1,5 +1,5 @@
 What is the name of the software used by this specific threat actor.
 This challenge is a 2 step approach.
 
-1. Find the Threat Actor Name
+1. Find the Threat Actor Name.
 2. Based on Threat Actor name find the tool.
