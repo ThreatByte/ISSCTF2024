@@ -1,26 +1,26 @@
-After running exiftool, there is few data which can be found suspicious for e.g. Key:3 Mode:ECE, Signature: Rijndael, Secret code: TheBestEspionage
+After running ExifTool, there is few data that can be found suspicious e.g. Key:3 Mode: ECE, Signature: Rijndael, Secret code: TheBestEspionage
 
-Extract the flag from the png file using any tool you've found. Here i have used stegosuite, which asks for a key to extract the text 
+Extract the flag from the png file using any tool you've found. Here I have used stegosuite, which asks for a key to extract the text 
 
 stegosuite gui or stegosuite extract -k key filename
 
-Then try to check if there is any zipped file in the png file. Use binwalk, Unzip or any other toools you find useful.
+Then try to check if there is any zipped file in the png file. Use Binwalk, Unzip, or any other tools you find helpful.
 
 unzip The-Best-Espionage.png
 
 After extracting the zipped file, there is a new directory called The-Best-Espionage and it has a few directories of Short Stories about the acts of Espionage. 
 
-After viewing the directories, each has a text file which contains the short story. After viewing the text file, there was no plain sight of data. After using a tool called stegsnow which hides the text in tabs and whitespaces we found a base64 data in Black Box and Hex data in The Assisstant Producer
+After viewing the directories, each has a text file that contains the short story. After viewing the text file, there was no plain sight of the data. After using a tool called stegsnow which hides the text in tabs and whitespaces we found base64 data in Black Box and Hex data in The Assistant Producer
 
 After running the command stegsnow -C filename 
 
 We get a base64 data : /ZIxQHu434W1D95VKKlKQA== 
 We get a hex data: fd9231407bb8df85b50fde5528a94a40
 
-In the metadata the signature name is mentionted as Rijndael which was the original name for AES encryption algorithm.
+In the metadata, the signature name is mentioned as Rijndael which is the original name for AES encryption algorithm.
 
-This data was encoded using a cryptoalgorithm called AES encryption and from the metadata we know the secret key is TheBestEspionage and the enumerate mode is ECE.
+This data was encoded using a crypto algorithm called AES encryption and from the metadata, we know the secret key is TheBestEspionage and the enumerate mode is ECE.
 
-After using a online decoder we get the password or key for the file which is 007
+After using an online decoder we get the password or key for the file which is 007
 
-Next use the tool stegosuite to extract the text and we get the flag: EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG} ImageIntelligence is really puzzling
+Next, use the tool stegosuite to extract the text and we get the flag: EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG} ImageIntelligence is really puzzling
