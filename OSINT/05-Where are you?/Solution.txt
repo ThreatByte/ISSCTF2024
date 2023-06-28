@@ -1,0 +1,9 @@
+The possible flags are:
+
+      EspionageCTF{32nd_St} 
+
+      EspionageCTF{32nd_st} 
+
+      EspionageCTF{32nd_Street} 
+
+      EspionageCTF{32nd_street} 
