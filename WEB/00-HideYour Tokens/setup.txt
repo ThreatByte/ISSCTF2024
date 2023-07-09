@@ -3,7 +3,10 @@
 3. visitor curl  127.0.0.1:3000/api/token
 4. decrypt hash(Maybe) 
 5. curl -H "Authorization: <token>" http://localhost:3000/api/secret
-6. echo "base64message" | base64 -d
+6. hashcat jwt.txt -m 16500 -a 0 /usr/share/wordlists/rockyou.txt --show
+7. Modify Hash
+8. Get Flag
+6. echo "base64message" | base64 -d (maybe?)
 
 
 password: 0830328284

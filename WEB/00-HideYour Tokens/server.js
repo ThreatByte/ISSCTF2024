@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 
 // Secret key used to sign and verify JWT tokens
-const secretKey = '1NiIsInR5cCI6IkpXVCJ9';
+const secretKey = '0830328284'
 
 // Middleware to verify JWT token
 function authenticateToken(req, res, next) {
@@ -26,9 +26,16 @@ function authenticateToken(req, res, next) {
 
 // API endpoint that requires authentication
 app.get('/api/secret', authenticateToken, (req, res) => {
-  res.json({ message: btoa('EspionageCTF{stealing_tokens_is_bad}') });
-});
+  const userRole = req.user.role;
+  let message = '';
 
+  if (userRole === 'admin') {
+    message = 'EspionageCTF{stealing_tokens_is_bad}';
+  } else if (userRole === 'user') {
+    message = 'Nice try!';
+  }
+  res.json({ message });
+});
 // Generate JWT token
 app.get('/api/token', (req, res) => {
   const payload = { username: 'admin', role: 'user' };
