@@ -1,0 +1,3 @@
+Find the flag from the given text
+
+Hint: Submit the Flag in our Format: for e.g. if the answer was THISISTHEFLAG: EspionageCTF{THIS_IS_THE_FLAG} as the flag.
