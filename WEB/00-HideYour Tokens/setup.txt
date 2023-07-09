@@ -7,6 +7,3 @@
 7. Modify Hash
 8. Get Flag
 6. echo "base64message" | base64 -d (maybe?)
-
-
-password: 0830328284
