@@ -1,13 +1,16 @@
-From the Challenge name we can get the Cipher which was used to encrypt the flag which is PlayFair Cipher. 
+From the Challenge name, we can get the Cipher that was used to encrypt the flag which is PlayFair Cipher. 
 
-PT-109 was an american patrol boat commandeered by JFK which was sunk by a Japanese Destroyer in world war 2. 
+PT-109 was an American patrol boat commandeered by JFK which was sunk by a Japanese Destroyer in world war 2. 
 
-After surviving the attack, the members washed upon the beach of a island nearby.
+After surviving the attack, the members washed up on the beach of an island nearby.
 
-Australian coastwatcher Sub-Lieutenant Reginald Evans observed it and planned a resuce mission.
+Australian coastwatcher Sub-Lieutenant Reginald Evans observed it and planned a rescue mission.
 
 A cipher message was sent by Evans after observing and doing the coordinated work.
 
 Use an online decoder to decrypt the text and you will get the flag which is PLAYFAIRISNOTSOFAIR. 
 
 Also in order to get the flag use the 5x5 square without the letter Z unless you are going to use brute force.
+
+For more: https://scienceblogs.de/klausis-krypto-kolumne/2020/05/27/a-ww2-playfair-message-sent-after-the-disappearance-of-john-f-kennedy/
+
