@@ -1,0 +1,9 @@
+1. npm install express jsonwebtoken
+2. node server.js
+3. visitor curl  127.0.0.1:3000/api/token
+4. decrypt hash(Maybe) 
+5. curl -H "Authorization: <token>" http://localhost:3000/api/secret
+6. echo "base64message" | base64 -d
+
+
+password: 0830328284
