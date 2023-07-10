@@ -1,3 +1,3 @@
-Finally, our Asset delivered something regarding JN-25. Decrypt the contents of the text file.
+Finally, our Asset delivered something. Decrypt the contents of the text file.
 
 Hint: Submit the Flag in our Format: e.g. if the answer was THISISTHEFLAG: EspionageCTF{THIS_IS_THE_FLAG} as the flag.
