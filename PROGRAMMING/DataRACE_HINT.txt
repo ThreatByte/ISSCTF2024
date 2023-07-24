@@ -1,0 +1,1 @@
+Hint: "Timing is everything. Race against the threads to seize the key at the right moment!"
