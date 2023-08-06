@@ -1,0 +1,174 @@
+Received: from SA0PR11MB4525.namprd11.prod.outlook.com (2603:10b6:806:9d::8)
+ by IA1PR11MB6538.namprd11.prod.outlook.com with HTTPS; Sun, 6 Aug 2023
+ 19:05:19 +0000
+Received: from MW4PR04CA0089.namprd04.prod.outlook.com (2603:10b6:303:6b::34)
+ by SA0PR11MB4525.namprd11.prod.outlook.com (2603:10b6:806:9d::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.26; Sun, 6 Aug
+ 2023 19:05:18 +0000
+Received: from MW2NAM10FT115.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:303:6b:cafe::6f) by MW4PR04CA0089.outlook.office365.com
+ (2603:10b6:303:6b::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.25 via Frontend
+ Transport; Sun, 6 Aug 2023 19:05:18 +0000
+Authentication-Results: spf=pass (sender IP is 74.208.4.201)
+ smtp.mailfrom=mail.com; dkim=pass (signature was verified)
+ header.d=mail.com;dmarc=pass action=none header.from=mail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of mail.com designates
+ 74.208.4.201 as permitted sender) receiver=protection.outlook.com;
+ client-ip=74.208.4.201; helo=mout.gmx.com; pr=C
+Received: from mout.gmx.com (74.208.4.201) by
+ MW2NAM10FT115.mail.protection.outlook.com (10.13.155.215) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6678.15 via Frontend Transport; Sun, 6 Aug 2023 19:05:18 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:DE1A7A4B63BFE6E70F0A47A37F1C5EBC79455E89CA0CDBBA43E8B9FDEA59C8BD;UpperCasedChecksum:B3E7CA1763F20DF6D345C78C4A00C274816658A3C07A919B45EA00CD753A2453;SizeAsReceived:2512;Count:16
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail.com;
+ s=s1089575; t=1691348717; x=1691953517; i=alexeismirnov@mail.com;
+ bh=RXNwaW9uYWdlQ1RGezN4UDAkRV8xaWU1X3pFcjBfVHJ1JDF9==;
+ h=X-UI-Sender-Class:From:To:Subject:Date;
+ b=Dl1o226G99xxElg/p0vRm0AnD+05djypCT9a0ZvG6G0VjkF9tnk0ZgzP/MhMTVoc7wPAu7m
+ ONvMRhvPFI45Y/2TlqUjdmJKHPhHUlgLlzW/LrAHp0W7tdd/x3qpb6xj26IuB/yMUQVMMoldF
+ p/btlRe1NZ3JMU9/fr8rBuumRX26hxsAZvC2OUwaVqX63Le6I6LCaE5LxxRzPU7C/n1otjC7S
+ rpK+ZTIkgyqPLUsuCbeRnmzY3JWcZDMShDOTEIWVrYPxz/7AUJwZS0zHGmPX3wQ5fppXjC1YB
+ dMoUJoSD32HzCYjY3DrV3Zailw2vKIiZgDnW1t2MmsKe0UpdbEJQ==
+X-UI-Sender-Class: f2cb72be-343f-493d-8ec3-b1efb8d6185a
+Received: from [142.55.3.15] ([142.55.3.15]) by web-mail.mail.com
+ (3c-app-mailcom-lxa11.server.lan [10.76.45.12]) (via HTTP); Sun, 6 Aug 2023
+ 21:05:17 +0200
+Message-ID: <trinity-e0501892-8271-4cbc-a83a-be98887aa98f-1691348717393@3c-app-mailcom-lxa11>
+From: Alexei Smirnov <AlexeiSmirnov@mail.com>
+To: classifiedsyndicate@outlook.com
+Subject: Urgent Extraction Required: Eyes in the Sky
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 6 Aug 2023 21:05:17 +0200
+Sensitivity: Normal
+X-Provags-ID: V03:K1:kiCDuxVCe8fhogXKq4+9FOtp+J4+NdExC2K2lc0IPesajSk+yYJ1OKP9uEyKyoA7+ey+o
+ WdpkaYIJVIImFdrE7yeUOv6BpFbR8C6i0xMgX0or0DqXunP3jFSB6t+oVAUOLrn6knuSX5LmXibp
+ 04O9eOsnQZKiDTvc48HQDdEtpGyv2z/0BQDtZ0i4TavM52kf3iWiJSI1tZJMQI62OKPBlFDOamvs
+ sd1lagQAH4H/ypEltmwXbjGBxI+GEsZVoSYfnoWWAocOiVAr+Sh13wSZjvtjx4JpsUngoFvil20X
+ Pg=
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:nhT1+/lsvps=;+Rhk4Yi4/UBUenkAxcOVzHl/3Tl
+ zG8yBP5jIX753ksI61AJES+wyHCVxHLym+bkmygJ6m3CFCAxaspjCeqLTUC61AO331CfGlcYo
+ 60ApkHFlsEF0Y1U3BqDBarpJC9mEZNxQysK9tsa752e4Q/7uNWCwzzC9siqEpb6T+BIdTG+M6
+ t6e6ZwdgSN5nnlmb1y771AQOR4G/IjunC4QJwHE/e67AjjNDzV88I0rlN3yU8uUEeVw7E1O24
+ v7zAj1BnHXJURSIYu4FY3bXXE0Ri++PoQfZpYe8xVpnddClHCyTH9mdjQ2fWlU1Vi6241JfEO
+ 4DBE37OFvXBxB2ceEU0L+xdnLt6Ve7KR8O7UYF4FKxU/Wcl3n5Z8kixZNKu/p9UtbH4b6vVPT
+ 1rasZvEs9wtUboEFBDAYRjopQx7nja9InyV5b6mw1B5C+Fvkf1sk2eLzMORUKwZ6BE0zKoRUt
+ diqVfyAe5zEiXVZXQbRjKJ7H/W+/M5bS3TeYuvqmUEmIDTaQGgyVCA3Z8GXF9LCMMQrRaJhRL
+ RCaUaPCeRpvDu1UFmoWecSPRHwUYVXjpmDkuNQQhyUZeTNIef/Eje4PLtiaYVogsRCN84Ophw
+ zr4BLYBefvrnDF02Pxj0+Z89QqQLl9SaUaHiITb3gtFdIfNKG90ZbL9OdaWrisBZyFn5z36AV
+ 45cn7+B1TCMXpag6aiZkW8LbJ/OI5zXqcFBrKomrp3+Y+kBig9Y4g+6Ocz36gbAquvnbSk6Hz
+ 3GyFZQlffs/NxVlZ+lMW5pMK1EqTQuaMZCk1L3E+FB+/swyoQoOOfj+4AEB7qWoDUcZIGuoi5
+ cMHrKAbtF7Q3qjkv4aXw10LWGc0p9GZLhxwZTEQ5+m5qg=
+X-IncomingHeaderCount: 16
+Return-Path: AlexeiSmirnov@mail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 06 Aug 2023 19:05:18.1904
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ dae294b8-b4f1-4b9e-7c16-08db96b01319
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ MW2NAM10FT115:EE_|SA0PR11MB4525:EE_|IA1PR11MB6538:EE_
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM10FT115.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/6/2023 7:04:02 PM
+X-MS-Office365-Filtering-Correlation-Id: dae294b8-b4f1-4b9e-7c16-08db96b01319
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 74.208.4.201
+X-SID-PRA: ALEXEISMIRNOV@MAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Aug 2023 19:05:18.0186
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: dae294b8-b4f1-4b9e-7c16-08db96b01319
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM10FT115.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR11MB4525
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.3429855
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6652.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(920221119095)(90000117)(920221120095)(90013020)(91025020)(91040095)(9050020)(9065024)(9100341)(944500132)(2008001134)(4810010)(4910033)(8820095)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RUo4SHBvRjRYTGFNZnAydmlsTmJYeHNVVHdhVEF1cVBiU0lTUnBzSzN1SnE0?=
+ =?utf-8?B?dktBS1dDZTVBNTRBYXV5Y044cFZWLzQrd0FXRmFUUFlKamZ4eVA3OVBNNVI5?=
+ =?utf-8?B?QjZHMHdNU3NBaVRFb0RLLzJwcDVBM240V29JTDA2eFRkbTM1MU1Oc0wxaGRC?=
+ =?utf-8?B?WEs3b0h3cTBlbndmRjFpZ25qem5SMXE1c01CMmlXQ0ZkNWhaQzZVQXdEUFdx?=
+ =?utf-8?B?d0NodldUNG1GUmhQckduWTUvUkY4ZHFncFh6SE1oZ09VMDh6ekRHSWtaN1I0?=
+ =?utf-8?B?ZzNlUFJaWS9VeUpkc0lwOEVXZEZ1V29UTGlpWmtieGFnZmpWc0dXRVo1Ykls?=
+ =?utf-8?B?M05CK0p4VHZDY25FNVF1Y1ZkRzZqRFhuRHcraDN3ZEFPSS8rdzFWdTZEZUI0?=
+ =?utf-8?B?UU5pRFJMZ0JkY0QxWHZ4ZFJTWnpweXFqYjJFMTNlQk92eUw0TnBER3hGK09H?=
+ =?utf-8?B?ZHFzQkprTG10dmIyem9ZN2NwQ05adFpFL05OMXhza1A0UkJPWVl5WkhINCtG?=
+ =?utf-8?B?alhTU0JvT01OQkEzQVdUOHRlZlBFeDI2TjVJTFZMODh4alVWQllTT05KeGJq?=
+ =?utf-8?B?N0cvYks2YWJRaDJ3Tkt5RnZlVEJKYTA4REM2eENkNFYxYkxIZnEwTmQrM29X?=
+ =?utf-8?B?ZmxkallXTm93cFZYSHJQUDZSaTRTSllraTN6MkUzY0VDNFhlWm9vaURkVjFZ?=
+ =?utf-8?B?M2tZSlVqMkhCbHRRYXl4bGVPbHMrWFNCSUxKQUttOVhEUXVEYXVSMVhZLzdE?=
+ =?utf-8?B?MUlhVzh0V1Qrc0szRUI0djhxNmNJWVRsR0phZlF4dHJReHo0VTRlRlM5S2dz?=
+ =?utf-8?B?R0NQZGcrcmFYVnRRdGVkaE1WZG9GeldsZ3g3Vm9BL2h0SlNnQmJ5M1IveTZE?=
+ =?utf-8?B?SmY5TC9udjM1R1c0TGM0MlZsUGRQQ0RTRGdiWklkSWRBaEdJY3YwTzZrQlR4?=
+ =?utf-8?B?L3MwbGVqc2ZFeTdwb0g2aDlGSDl3SVR3a3U1NEtHYlRxS1UrajY2QjMyL09Q?=
+ =?utf-8?B?dzZvRDFTamw4YW1iVDNTZkdSQy96MWdZTDV6Qk1USkEyaXFHS2Z0b3NWbm04?=
+ =?utf-8?B?TXRyRkV3bGNjYzlkalFaRjF2N3FvMXNEbC90RlZGRnlyWmdBenlqY0d6LzlN?=
+ =?utf-8?B?QjdPZkpTeTJrelNyOU05SkJTcjJ5K3Rhb3pBMFhQT3JONnd3a2ZScFVBUnpo?=
+ =?utf-8?B?NS8wckJHUEJHZEsyY29KMWVVNnBSdHJud1ExY1ZDbzNPZ2ZmdTlHVE9SV1dh?=
+ =?utf-8?B?a1YwaytBSFdCR1VaSE1mRTRpQ2VnaENxRUlGdjZ6NTh6Z043UmVPZndadnRr?=
+ =?utf-8?B?bmdxcVNXQjhQcDNxNkdTRHlVeDFvVTNaMFV0SUM3bHB0SGdBc3lYbXZFVHBv?=
+ =?utf-8?B?eTRZamR6aXU5bnB1WGN4N08vL21Yam1hZjZJWHdwRHFCTEl3S00rek9saWt3?=
+ =?utf-8?B?Mm5mRjl0emNRZkRUeVpxTWFMazU3bU9pa0tic3ByM1dvWXJpb2piSnl1czd5?=
+ =?utf-8?B?aENMZkpNcUFET3BidjhzYzVpVFJQV0RpeHFyTXplWm5nOTdmVmZsRURIUEgz?=
+ =?utf-8?B?eTRkQlM0SERSazJrS0RIQ0JCdWpHNDZLVHBucmZMdERmOXRlM3FsU1ZrZC9y?=
+ =?utf-8?B?amovVTRPKzFtTEhWeWQwdDE4aGpocTkzSXBERTl2SlRnOEhTTmxONkJUS0VW?=
+ =?utf-8?B?Y3kxVVp1N3dRdFBGVFBvTzI3L2Z2UE5tZ2NiYWxuM1M5M3FTU01mVTBFOTBQ?=
+ =?utf-8?B?V05IcTk0MjJWNFZVcTVsUnlJS0NySEkyUm1kbVVVZkpPdFhJUi9lcFc1QU45?=
+ =?utf-8?B?QnJCOFAyWXFLaGkvR2hNdz09?=
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body><div style="font-family: Verdana;font-size: 12.0px;"><div>Agent Crimson,</div>
+
+<div>&nbsp;</div>
+
+<div>
+<div>SECURE COMMUNICATION CHANNEL HAS BEEN COMPROMISED. SIGNATURE MODIFICATED DETECTED. CODE GHOSTHAWK ACTIVATED.</div>
+
+<div>&nbsp;</div>
+
+<div>We've uncovered traces of unauthorized access to our encrypted&nbsp;engines, posing an imminent threat to our covert operations. The enemy has proven cunning and resourceful leaving us vulnerable to potential exposure.&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>Immediate action is required to contain the breach and neutralize any leaked information. I urge you to verify the authenticity of all incoming communications and exercise extreme caution when handling sensitive messages.&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>Deploy countermeasures and reinforce encryption protocols. Your skills will be tested as we navigate this treacherous terrain. Remember to trust no one.</div>
+
+<div>&nbsp;</div>
+
+<div>Stay vigilant</div>
+
+<div>&nbsp;</div>
+
+<div>Securely yours,</div>
+
+<div>&nbsp;</div>
+
+<div>Alexei Smirnov</div>
+</div></div></body></html>
