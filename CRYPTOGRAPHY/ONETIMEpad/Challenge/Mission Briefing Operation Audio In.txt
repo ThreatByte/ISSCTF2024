@@ -1,0 +1,13 @@
+Mission Briefing: "Operation Audio Intercept - Decrypt the One-Time Pad Cipher!"
+
+Operation Audio Intercept is a critical mission that requires your exceptional cryptanalysis skills. A covert operative intercepted an enigmatic audio file from a rogue agent's shortwave radio transmission. The audio file holds the key to unlocking an encrypted message secured with the impenetrable One-Time Pad Cipher. 
+
+Your first task is to meticulously analyze the audio file, as it contains a series of Morse code signals. Your mission objective is to translate the Morse code into text, extracting the hidden key necessary to decrypt the classified message.
+
+Once you have successfully deciphered the Morse code and obtained the secret key, the real challenge begins. Utilizing the key, you must employ modulo 26 arithmetic to reverse-engineer the encryption process on this list of numbers that we found in a rougue agents note book Encrypted msg = [2, 8, 2, 25, 23, 7, 4, 9, 10, 2]. This will unveil the concealed plaintext message, revealing critical intelligence that could change the course of the operation.
+
+Remember, the One-Time Pad Cipher's strength lies in the absolute secrecy of the key. The rogue agent must have used a truly random key of the same length as the message, making the encryption unbreakable when used correctly.
+
+
+
+- GENERATED DESCRIPTION WITH CHATGPT...
