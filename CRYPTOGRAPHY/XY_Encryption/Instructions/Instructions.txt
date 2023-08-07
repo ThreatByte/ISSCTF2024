@@ -1,0 +1,1 @@
+The XY cipher employs a table-like structure, where the rows and columns represent the letters of the alphabet. Your task is to identify the correct letter at each given XY coordinate, meticulously reconstructing the original message.
