@@ -1,5 +1,6 @@
-I was created with good intentions! I was created with one goal in mind to destroy a specific program.
-I was developed in the early 2000s. After I was created my code was used in other attacks. The lines in my code reached the hundred thousand. 
+I was created with good intentions! I was made with one goal in mind to destroy a facility.
+I was created in a national laboratory. I exploited 4 zero-day exploits.  
+The lines in my code reached the hundred thousand. 
 
 What is my name?
 
