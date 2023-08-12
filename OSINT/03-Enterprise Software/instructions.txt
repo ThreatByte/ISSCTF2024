@@ -1,5 +1,5 @@
-A massive disruption occurred in the cyber security industry in the summer of 2023. The severity of it was critical.
-Three CVEs were created. The vulnerability was a zero-day.  
+A massive disruption occurred in the cyber security industry in the summer of 2023. Three CVEs were created. 
+The vulnerability was a zero-day.  
 
 The flag is one of the CVE Numbers.
 
