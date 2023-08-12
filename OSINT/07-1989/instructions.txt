@@ -1,0 +1,13 @@
+Mail-To: Jim  
+Date: December 20th 1989				
+From: Tim
+
+We were given a virus sample by a anonymous source. Your task is to determine attributes of the software:
+
+
+1. What company did you have to pay the software lease to?
+2. what country did you have to mail the money to?
+3. Who created the virus?
+4. What programing language was the files written in?
+5. How many reboots did it take before something happend to your computer?
+6. In todays world what would this type of virus be classified as?

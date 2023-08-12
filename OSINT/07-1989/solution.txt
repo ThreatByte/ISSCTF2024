@@ -1,0 +1,6 @@
+EspionageCTF{PC Cyborg Corporation}
+EspionageCTF{Panama}
+EspionageCTF{Dr. Joseph Popp}
+EspionageCTF{QuickBASIC3.0}
+EspionageCTF{90}
+EspionageCTF{Ransomware}
