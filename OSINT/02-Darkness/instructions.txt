@@ -1,8 +1,6 @@
-I am highly sophisticated. Everything went dark. I am a big threat to one specific sector.
-I have 2 versions. The beach is a nice place to relax and build sand castles. Five tools were used in the second variation.
+We are contracted by the government. We cause havoc worldwide. I am a big threat to one specific sector.
+Everything went dark.   
 
 What is the name of my creator?
 
 Submit the challenge using the following format EspionageCTF{xxxxxxxx}
-
-
