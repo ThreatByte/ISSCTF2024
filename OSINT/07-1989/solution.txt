@@ -1,4 +1,3 @@
-EspionageCTF{PC Cyborg Corporation}
 EspionageCTF{Panama}
 EspionageCTF{Dr. Joseph Popp}
 EspionageCTF{QuickBASIC3.0}
