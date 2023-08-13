@@ -3,4 +3,4 @@ EspionageCTF{QuickBASIC3.0}
 EspionageCTF{90}
 EspionageCTF{Ransomware}
 EspionageCTF{Ms-dos}
-EspionageCTF{}
+EspionageCTF{20,000}
