@@ -1,0 +1,14 @@
+Dev Michael N, 0x
+
+**Challenge Title: Decoy Flag Extraction**
+
+**Challenge Description:**
+Welcome to the Decoy Flag Extraction challenge! Your goal is to craft a highly precise regular expression to extract a specific flag pattern from a text. The flag format is `EspionageCTF{}` with a random text inside the curly braces when you create the Correct Regex it will show the Flag along with the text inside the curly braces giving you the flag.
+However, there's a twist – numerous decoy flags with various characters, numbers, and symbols have been scattered throughout the text, making the task more challenging. 
+Create a regular expression that can accurately isolate the genuine flag while disregarding the decoys.
+
+
+
+**Note to Participants:**
+This challenge challenges your knowledge of regular expressions. Your objective is to design a regular expression pattern capable of recognizing and extracting the hidden flag, `EspionageCTF{xyz}`, from a mixed set of flags in the provided text. Success hinges on your ability to carefully tailor the expression to ignore false positives. 
+Best of luck!
