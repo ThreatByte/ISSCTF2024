@@ -2,4 +2,4 @@
  
 1.)  - Begin by specifying the fixed text, then look every where from a to z and Z to A. 
 2.)  - Experiment with different components of your regular expression to achieve accuracy, maybe smash keyboard a couple times and you might find it, like a wildcard!
- 
+3.)  -  Pythons are well-known for their exceptional camouflage abilities. maybe 'import re' will help!
