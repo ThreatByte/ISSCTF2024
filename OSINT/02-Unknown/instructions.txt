@@ -1,5 +1,5 @@
 Hello i need your help! I have this odd file extension on my desktop it ends with ".kanti".
-Can you tell me some IOCs based on blogpost of this file extension. I want to known the following:
+Can you tell me some IOCs based on this file extension based on blog post. I want to known the following:
 
 How many file extensions were excluded?
 What is the programming language that the malware is written in?
