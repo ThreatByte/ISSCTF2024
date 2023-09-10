@@ -1,3 +1,4 @@
+// main.c: michael aaron N
 int main() {
     char username[50];
     char password[50];
