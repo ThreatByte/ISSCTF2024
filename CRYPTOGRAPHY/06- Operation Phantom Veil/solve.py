@@ -1,30 +1,35 @@
-def rot47_encrypt(char, rot47_list):
-    if '!' <= char <= '~':
-        original_index = ord(char) - ord('!')
-        return rot47_list[original_index]
-    return char
+def encrypt(original_text):
+    #ROT47 original list
+    original_list = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+    
+    #ROT47 reverse list
+    reverse_list = "~}|{zyxwvutsrqponmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#\"!"
 
-def custom_rot47_encrypt(plaintext, rot47_list, reverse_rot47_list):
-    ciphertext = ''
-
-    for index, char in enumerate(plaintext):
-        if index % 2 == 1:
-            # Odd index, use ROT-47 with the original list
-            ciphertext += rot47_encrypt(char, rot47_list)
+    encrypted_text = ""
+    for i, char in enumerate(original_text):
+        if i % 2 == 0:
+            # Encrypt using ROT47 in original order
+            if char in original_list:
+                char_index = original_list.index(char)
+                encrypted_char = original_list[(char_index + 47) % 94]
+            #else:
+             #   encrypted_char = char
         else:
-            # Even index, use ROT-47 with the reversed list
-            ciphertext += rot47_encrypt(char, reverse_rot47_list)
+            # Encrypt using ROT47 in reverse order
+            if char in reverse_list:
+                char_index = reverse_list.index(char)
+                encrypted_char = reverse_list[(char_index + 47) % 94]
+            #else:
+             #   encrypted_char = char
 
-    return ciphertext
+        encrypted_text += encrypted_char
 
-# Create a ROT-47 character list in its original order
-rot47_list = [chr(i) for i in range(ord('!'), ord('~') + 1)]
-# Create a ROT-47 character list in reverse order
-reverse_rot47_list = rot47_list[::-1]
+    return encrypted_text
 
-# Example usage:
-plaintext = "EspionageCTF{r0t_c@N_b3_rEc1pROC@teD}"
-encrypted_text = custom_rot47_encrypt(plaintext, rot47_list, reverse_rot47_list)
-decrypted_text = custom_rot47_encrypt(encrypted_text, rot47_list, reverse_rot47_list)
-print("Encrypted:", encrypted_text)
-print("Decrypted:", decrypted_text)
+
+original_text = "EspionageCTF{r0t_c@N_b3_rEc1pROC@teD}"
+encrypted_text = encrypt(original_text)
+print("Original text:", original_text)
+print("Encrypted text:", encrypted_text)
+decrypted_text = encrypt(encrypted_text)
+print("Decrypted Text:", decrypted_text)
