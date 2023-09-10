@@ -1,7 +1,7 @@
 import datetime
 import dkim
 
-with open('C:/Users/Varun Ramesh/OneDrive/Desktop/03- Infiltrated Inbox 2/RE-ETH-Transaction-Records-Solved.eml', 'r') as file:
+with open('path', 'r') as file:
     data = file.read()
     date = datetime.datetime(2023,8,20,13,6,0)
     for x in range(1000):
