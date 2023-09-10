@@ -1,0 +1,6 @@
+Next Mission: HQ received a email file containing a conversation between Agent Spike and an Asset from Washington D.C. regarding Crypto Transactions made by the Troupe. They suspect someone from inside the agency might have manipulated the mail while delivering it to the HQ. 
+
+Determine whether any content/contents of the email which you believe may have been manipulated and your forensic skills to find the origin date of the latest email.
+
+
+

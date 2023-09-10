@@ -1,0 +1,125 @@
+Received: from 10.197.36.8
+ by atlas311.free.mail.bf1.yahoo.com pod-id NONE with HTTPS; Sun, 3 Nov 2019 21:30:37 +0000
+Return-Path: <financial.comrade007@gmail.com>
+X-Originating-Ip: [209.85.215.178]
+Received-SPF: pass (domain of gmail.com designates 209.85.215.178 as permitted sender)
+Authentication-Results: atlas311.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20221208;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ethertest@yahoo.com; Sun, 3 Nov 2019 21:30:37 +0000
+X-YMailISG: _yD2B_UWLDvpA4G1cODFIan8__f17vm_Uriza7qtaEtByd.u
+ y4IeQ6eKs7WXzCveLKuxDiSKpUJjboZ2QfEPR94nlOpDlP8.5q1GzMx.JGTG
+ yQZbPACc7ua1JFXw5tGHp66QwwOwWJcgxtOCnPn4Vl9yRZvNHKKLwvTW4OXO
+ 5OHm34vMut2ESki1a9hE0Ro5JCiVh13hzFgTGpJEPfX4tTj0K9ZCguzmHOMa
+ LFXzIj0UvtsoLuFuUgTS2Ya9iL4ZpDp38wrgam2731cVWMPZ_F6a9U4OtosI
+ NYM3bpCcPDYYZD0J.ZPa8J8egPF.YtAoy_5Z6aSUsiLWXW02Edc93ygMoN2f
+ OAOX9B8KQnJfgtLRutZen7VSjSNTEu1YYaMa.gQqvW2cSNepAKlslL965bVA
+ 0YXNeeTCuEbhpZu8ebflsK1AoV52CsbnXBR2RWAipWE1skTRkz9p4_LRJ0to
+ qyqZKbmNlyFDXIBclgDsZeumLjqKjEFIY6Eaq1piTQx3OIfIykqntTHwvvJ2
+ dzW8i38scl1PISYviexVdkj6FihqvhYD2vnTWnzQKNikWkmZ_yBpqlfOHEWn
+ XTdb_sdlvXHGdtvlKe_DkRSbR6mgSSe.v9LgSZpy2TN65YBZoapLhPHc.ndx
+ niFqrjrxfnjNr8EpRXYBB3meDnpboQFtPLM_mQAzyPW00wzl7iHj6UYsa5QA
+ Kg1oNwyWZuPg52HZiIxW6d5mS3_Zqv1RkFt4Sazf6P4Xz1I6TNPSAwsIidtp
+ dTHjnrRatuWdcKl7marLSMyzj1TNNDSzzgkvMMrvgd7FsvG3yJkeBop6kuNI
+ 1pwkIzhVJdy8.1I52hHlwNmevsSp3Ikt2OWSuTOBAFC6skrZ2.Ml4zknQBb3
+ SqUpp2jZ6HvP9U44Y3j_Xu2wq1gGkup0q7f8BneGvuCniczzk7uihHbHJiaN
+ jDzUILANvm6qAd.gerf88jWyKXJpQJQxH7qQ2Bk13CwvGy.bpzKjeyVWhg5g
+ CWen7PeiJYc6VehQRjtR1O7PS83uEzKdcCqC0NkVK8pWA.GTzOiXKttKylBF
+ e7lFeLVTaZdYqMYc6HT8DyPjMQIBJe3iRCLqip3G6ujiP1YhBnUSK_TPS339
+ sxjfQIuROJKJBOUKnN_VNqv9d5T28QTwo8HaJKqkQ1o4pg--
+Received: from 209.85.215.178 (EHLO mail-pg1-f178.google.com)
+ by 10.197.36.8 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 03 Nov 2019 21:30:37 +0000
+Received: by mail-pg1-f178.google.com with SMTP id 41be03b00d2f7-517ab9a4a13so1681529a12.1
+        for <ethertest@yahoo.com>; Sun, 03 Nov 2019 14:30:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1694190636; x=1694795436; darn=yahoo.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Y8qCPZHgcguXBNkfHTojQ/6QWubVWMrtvtnHTQTWc30=;
+        b=JL/vyUBwZC7wJIbpQHrEjALJfVlqqWxxvRWsoF8PesjdYZlUMYXYGGS30C58jw21v0
+         Vs5VwxH7ssrpkPCos8fednBzPZ7az1R+O+rogGYVW9H8FptdL+uWkBfwar/ctFTEKT4R
+         gA8mspjjz874TMuHe+5JoYqSYiQe6NrntAqGSnUDnrd3b3+5vKXA4Spa5l7A3DPMRezN
+         SmbBMU8EflAaUDoWYMsdno9x4lVQ+MUYxw9vbpal4YeF+oxPNN8w+/e6OOYJtqXML4Oz
+         uaalfNgQx8XkxQKjIbR0p4dEFoMbCNzJSg4qsvgjdSL0uOQxVwGzLxtrssHLRnL+tKQw
+         08Aw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1694190636; x=1694795436;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Y8qCPZHgcguXBNkfHTojQ/6QWubVWMrtvtnHTQTWc30=;
+        b=hK3B8cuieBtfR7ZVYRjjBpbYuCdFQIG/h7tBdkc/gQpcrNqyzzFqA077Quguz41ykl
+         PQH7imEpkdYQWd3p2+jbpZxN54emPyenZKMtF+nmgwXfqLt/SGZtCW/em7qPU9nAH6Ro
+         fIzydWy0kVVUGkfsws+qnGaVCz3bByzcVZ+5iqnw2GqKYNyof2beSkBRNsKVNVRnIQd8
+         dZqn095C/wk7pCJhbbLctHvlzIvlv4K2EAIdM3jTfK4AubE+yTTyy0DqK6XHOPxBeUEK
+         wGcv937FsdJ7DT9Zz1YehzhO5+DlyMDNbWifJcjma2qSyOj75VhTx1sCgWRCShlmcMws
+         0P8Q==
+X-Gm-Message-State: AOJu0YyTPfn0+lSKf1ZE7+sk6LUPU5K0spTzLsiNxhROUs4eOJyRVqL3
+	nIsj+PtXMVrU1qeNvPl43X3/nkmBRCev7vn2EQzXmq8S
+X-Google-Smtp-Source: AGHT+IGpw/GfS3UcigsAaLTrO+SrWgL2/9/WPpsHek7pPr644nFq7U5NfLq1/Elf349O6/st9z7Y0ZPh3TQlBXd3S0c=
+X-Received: by 2002:a17:90b:1093:b0:26b:e27:8bc2 with SMTP id
+ gj19-20020a17090b109300b0026b0e278bc2mr2980508pjb.45.1694190636477; Sun, 03
+ Nov 2019 14:30:36 -0700 (PDT)
+MIME-Version: 1.0
+References: <CACc=QxOhUnFNDMXQ79ZpuFeDmS2FuzbTRzwVQfLCF67+QU-HYQ@mail.gmail.com>
+ <94210501.3476272.1694116667235@mail.yahoo.com>
+In-Reply-To: <94210501.3476272.15727246670005@mail.yahoo.com>
+From: InZaYn <financial.comrade007@gmail.com>
+Date: Sun, 3 Nov 2019 16:09:11 +0000
+Message-ID: <CACc=QxPPq7aWQyDH7BF=-T00uDkGb6HWM2+GYbWfpmstBx99hA@mail.gmail.com>
+Subject: Re: Transaction Records
+To: Ether Test <ethertest@yahoo.com>
+Content-Type: multipart/alternative; boundary="00000000000011b2970604db7f48"
+Content-Length: 1883
+
+--00000000000011b2970604db7f48
+Content-Type: text/plain; charset="UTF-8"
+
+Got it. Thanks
+
+On Thu, 2 Novm 2019 at 15:57, Ether Test <ethertest@yahoo.com> wrote:
+
+> Sure, I will send it to you in a day or two.
+>
+> On Saturday, Novemeber 2, 2019 at 03:54:36 p.m. EDT, InZaYn <
+> financial.comrade007@gmail.com> wrote:
+>
+>
+> Hey, Can you look up the latest Transactions made by the Troupe?
+>
+
+--00000000000011b2970604db7f48
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Got it. Thanks</div><br><div class=3D"gmail_quote"><div di=
+r=3D"ltr" class=3D"gmail_attr">On Sat, 2 Novm 2019 at 15:57, Ether Test &lt=
+;<a href=3D"mailto:ethertest@yahoo.com">ethertest@yahoo.com</a>&gt; wrote:<=
+br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8e=
+x;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div><div style=
+=3D"font-family:garamond,&quot;new york&quot;,times,serif;font-size:13px"><=
+div></div>
+        <div dir=3D"ltr">Sure, I will send it to you in a day or two.</div>=
+<div><br></div>
+       =20
+        </div><div id=3D"m_-5408873392605927481yahoo_quoted_4803576501">
+            <div style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,=
+Arial,sans-serif;font-size:13px;color:rgb(38,40,42)">
+               =20
+                <div>
+                    On Saturday, Novemeber 2, 2019 at 03:54:36 p.m. EDT, In=
+ZaYn &lt;<a href=3D"mailto:financial.comrade007@gmail.com" target=3D"_blank=
+">financial.comrade007@gmail.com</a>&gt; wrote:
+                </div>
+                <div><br></div>
+                <div><br></div>
+                <div><div id=3D"m_-5408873392605927481yiv6876594791"><div d=
+ir=3D"ltr">Hey, Can you look up the latest Transactions made by the Troupe?=
+</div>
+</div></div>
+            </div>
+        </div></div></blockquote></div>
+
+--00000000000011b2970604db7f48--
