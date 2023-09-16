@@ -1,0 +1,6 @@
+Player needs to exploit an integer underflow to get around the if statement checking if the temperature being set is too hot.
+
+By giving the code a small enough negative number it will get by the if statement and when converted to fahrenheit the number will be too small and basically wrap back around to a number greater than 2 billion
+
+Multiple numbers can work one of them is:
+-1,111,111,111
