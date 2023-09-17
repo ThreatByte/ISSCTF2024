@@ -1,0 +1,15 @@
+Description: I have been mastering the craft of encryption since I was 7 years old, no one ever got past through my cyphers... you’re no different! 
+
+All you desire is with me... do you want the key? Go get it hahahah...  
+
+Part 1: From Base64 to Text
+TWVkaW9jcmUgY3lwaGVyIHNraWxscywgeW91IGNhbid0IGJyZWFrIGludG8gbXkgbWF4aW11bSBzZWN1cml0eSBlbmNyeXB0aW9uIG1ldGhvZHMsIGZvciBzdXJlIHlvdSBkbyBub3QgdW5kZXJzdGFuZCB0aGlzOgo1OSA2RiA3NSAyMCA2NSA3OCA3MCA2NSA2MyA3NCA2NSA2NCAyMCA3OSA2RiA3NSA3MiAyMCA2NiA2QyA2MSA2NyAyMCA3NCA2RiAyMCA2MiA2NSAyMCA2OCA2MSA2RSA2NCA2NSA2NCAyMCA3NCA2RiAyMCA3OSA2RiA3NSAyMCA2RiA2RSAyMCA2MSAyMCA3MyA2OSA2QyA3NiA2NSA3MiAyMCA3MCA2QyA2MSA3NCA2NSAzRiAyMCA0OSAyMCA2QiA2RSA2NSA3NyAyMCA0OSAyMCA2MyA2RiA3NSA2QyA2NCAyMCA2NiA2RiA2RiA2QyAyMCA3OSA2RiA3NSAyRSAyRSAyRSAyMCA3OSA2RiA3NSAyMCA3NyA2MSA2RSA3NCAyMCA2OSA3NCAzRiAyMCA0NyA2RiAyMCA2NyA2NSA3NCAyMCA2OSA3NCAzQSAyMCA1MiA2NiA2MyA3NiA2MiA2MSA2RSA3NCA3MiA1MCA0NyA1MyA3QiA1MSAzMyA1MCA0NSAzMSA0MyA0NyAzMSAzMCA0MSA1RiA0MSAzMCAzMCA0RiA3RCA= 
+
+Part 2: When Base64 is converted we will have Hex code, so now we convert Hex to text
+Mediocre cypher skills, you can't break into my maximum security encryption methods, for sure you do not understand this:   
+59 6F 75 20 65 78 70 65 63 74 65 64 20 79 6F 75 72 20 66 6C 61 67 20 74 6F 20 62 65 20 68 61 6E 64 65 64 20 74 6F 20 79 6F 75 20 6F 6E 20 61 20 73 69 6C 76 65 72 20 70 6C 61 74 65 3F 20 49 20 6B 6E 65 77 20 49 20 63 6F 75 6C 64 20 66 6F 6F 6C 20 79 6F 75 2E 2E 2E 20 79 6F 75 20 77 61 6E 74 20 69 74 3F 20 47 6F 20 67 65 74 20 69 74 3A 20 52 66 63 76 62 61 6E 74 72 50 47 53 7B 51 33 50 45 31 43 47 31 30 41 5F 41 30 30 4F 7D 
+
+Part 3: We have converted the hex, it says something but the flag but its still encrypted, we decryt it using rot13
+You expected your flag to be handed to you on a silver plate? I knew I could fool you... you want it? Go get it: RfcvbantrPGS{Q3PE1CG10A_A00O}
+
+The flag: EspionageCTF{D3CR1PT10N_N00B} 
