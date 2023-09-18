@@ -1,0 +1,6 @@
+The program does not actually authenticate the user, the competitor just needs to provide valid padding to get the flag.
+
+The simplest way is finding a valid string with a padding of 0x01 as the last character.
+
+User would need to bruteforce the program locally to find the valid combination of characters with something like exploit.py and then use the combination to get the flag.
+
