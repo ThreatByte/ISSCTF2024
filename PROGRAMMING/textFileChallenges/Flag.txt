@@ -1,3 +1,0 @@
-Flag = EspionageCTF{FoundIt!} 
- Regex = EspionageCTF\{[a-zA-Z].*?\}
-import re
