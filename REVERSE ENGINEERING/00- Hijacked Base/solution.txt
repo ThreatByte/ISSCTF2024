@@ -1,0 +1,4 @@
+From the code, we can view that each function calls the function transmit(), which has base64 encoded data. Only four or five Functions has what is necessary 
+for the flag (from the instructions), and the other functions are just dummy. From hint, we can assume that the base64 has encoded multiple times randomly.
+So one way is to decode the base64 data Multiple times for each function and see if there is any word that can be linked to the flag or we can decode the whole 
+base64 code that we get upon calling all Functions in the main program and look for the words which may be flag for each iteration.
