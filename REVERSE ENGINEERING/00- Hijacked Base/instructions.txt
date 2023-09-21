@@ -1,3 +1,2 @@
 At the Istanbul Flying Base, organizations' aircraft have been infiltrated and hijacked by terrorists. The communication channel has been severed and there were some crucial orders about different missions the Chief gave during the Hijack. It seems like there is a lot of data that has been compromised. Analyze the code and complete your last task, Agent Twilight.
 
-Flag Format: EspionageCTF{XXX_XXX_XXX_XXX} 
