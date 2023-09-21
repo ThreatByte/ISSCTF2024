@@ -63,7 +63,7 @@ public:
     }
 
     void MissionNovember() {
-        Transmit("WVhSMFlXTm9aWGhsWkE9PQ==");  //attachexed*
+        Transmit("WVhSMFlXTm9aWGhsWkE9PQ==");  //given*
     }
 
     void MissionOscar() {
