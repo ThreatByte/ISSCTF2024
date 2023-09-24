@@ -3,7 +3,7 @@
 #include <string.h>
 
 void secret_spy_function() {
-    printf("Access Granted! The secret code is: CTF{0v3rfl0w_D3ptH_9xi7Q2v}\n");
+    printf("Access Granted! The secret code is: EspionageCTF{0v3rfl0w_D3ptH_9xi7Q2v}\n");
     exit(0);
 }
 

