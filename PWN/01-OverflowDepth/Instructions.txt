@@ -1,0 +1,16 @@
+#compile in 32 bit
+sudo apt install gcc-multilib
+gcc -m32 -o ctf_challenge_obfuscated -fno-stack-protector -z execstack ObfuscatedBufferoverflow.c
+
+#To temporarily disable ASLR:
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space 
+#To re-enable ASLR:
+echo 2 | sudo tee /proc/sys/kernel/randomize_va_space
+
+gdb
+run
+info functions
+#note 0x565561f4  secret_spy_function
+
+#see uploaded python code
+python payload.py | ctf_challenge_obfuscated
