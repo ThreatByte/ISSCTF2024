@@ -1,6 +1,6 @@
 #!/bin/bash
 
-numbers=(
+horde=(
 '114'
 '107'
 '98'
