@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #the number list goes in numbers()
-numbers=()
+horde=()
 
 string=""
 
-for num in "${numbers[@]}"; do
+for num in "${horde[@]}"; do
   string="${string}$(printf "\\$(printf '%03o' "$num")")"
 done
 
