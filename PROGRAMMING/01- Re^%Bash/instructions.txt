@@ -1,1 +1,0 @@
-Find the flag from the given bash file.

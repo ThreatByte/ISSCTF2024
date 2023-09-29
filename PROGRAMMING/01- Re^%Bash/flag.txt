@@ -1,1 +1,0 @@
-EspionageCTF{Bash_Scripting_Is_Super_handyy}
