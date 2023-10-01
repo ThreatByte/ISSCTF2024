@@ -1,1 +1,2 @@
-Encoding might've been done several times randomly.
+Hint 1: Encoding might've been done several times randomly.
+Hint 2: Only look for precise meaningful words.
