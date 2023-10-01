@@ -12,4 +12,4 @@ done
 # Print the resulting string
 echo "$string"
 
-#after the output, they have to search for the words which can be linked to the flag among the output
+#to find the flag they can either look at the output or pipe the output to a text and use grep to get the flag
