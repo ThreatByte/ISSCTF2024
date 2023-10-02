@@ -1,1 +1,0 @@
-EspionageCTF{follow_the_given_orders}
