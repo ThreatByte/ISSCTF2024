@@ -1,0 +1,4 @@
+Flag = EspionageCTF{FoundIt!} 
+Regex = EspionageCTF\{[a-zA-Z].*?\} 
+
+LOOK AT THE INSTRUCTIONS ****
