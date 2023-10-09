@@ -1,2 +1,16 @@
 Flag = EspionageCTF{FoundIt!} 
 Regex = EspionageCTF\{[a-zA-Z].*?\}
+
+
+____________________________________________________________________
+
+The regular expression [a-zA-Z].*? can be broken down as follows.
+
+1.) [a-zA-Z]: This part of the regex defines a character class which matches any uppercase or lowercase letter from A to Z and vice versa to start off a pattern with alphabetic characters.
+
+2.) .*?: This part searches any sequence of characters (other than newlines) non-greedily or lazyly. While.* would match every possible character, while.*? matches as few as possible while still satisfying the overall pattern - making this useful when trying to capture as small an exact match that still meets it all.
+
+3.) \{\}: This part corresponds to an actual closing curly brace '' character. However, because regular expressions only support special characters like this one ('' in particular), an escape with backslash must be used so it matches up as written.
+
+
+There are many different types of decoys in this txt file, so the best way to apprach it is to look at how can i make a expression that will elimanate all the decoys, based off of the hints i provided along with the size of the file, the bast way to solve the challenge is using the terminal or  python with "import re"
