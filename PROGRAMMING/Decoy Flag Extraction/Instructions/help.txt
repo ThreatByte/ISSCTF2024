@@ -13,4 +13,6 @@ The regular expression [a-zA-Z].*? can be broken down as follows.
 3.) \{\}: This part corresponds to an actual closing curly brace '' character. However, because regular expressions only support special characters like this one ('' in particular), an escape with backslash must be used so it matches up as written.
 
 
-There are many different types of decoys in this txt file, so the best way to apprach it is to look at how can i make a expression that will elimanate all the decoys, based off of the hints i provided along with the size of the file, the bast way to solve the challenge is using the terminal or  python with "import re"
+There are many different types of decoys in this txt file, so the best way to apprach it is to look at how can i make a expression that will elimanate all the decoys. 
+
+based off of the hints i provided along with the size of the file, the bast way to solve the challenge is using the terminal or  python with "import re", with these tools participants can hopefully piece together a expression that is the same or even similar to mine. 
