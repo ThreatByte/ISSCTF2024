@@ -1,7 +1,0 @@
-Threat actors use various types of software. You must determine what software is used by a specific threat actor. 
-This challenge is a 2 step approach.
-
-1. Find the Threat Actor Name.
-2. Based on Threat Actor name find the tool.
-
-What is the image potraying. Do you know?
