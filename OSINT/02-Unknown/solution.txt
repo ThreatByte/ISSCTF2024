@@ -1,3 +1,0 @@
-1) The Flag is EspionageCTF{81}
-2) The Flag is EspionageCTF{Nim}
-3) The Flag is EspionageCTF{Locked_253_BTC.zip}
