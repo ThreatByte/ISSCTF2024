@@ -1,6 +1,0 @@
-Hello i need your help! I have this odd file extension on my desktop it ends with ".kanti".
-Can you tell me some IOCs of this file extension. I want to known the following:
-
-What type of malware is this?
-What is the programming lanague that the malware is written in?
-What is the parent process name of the child process(1488)?
