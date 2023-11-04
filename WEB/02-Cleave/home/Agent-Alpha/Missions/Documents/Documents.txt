@@ -1,5 +1,0 @@
-1 Pass
-2 Keys
-3 Devices
-4 Apps
-5 Squads

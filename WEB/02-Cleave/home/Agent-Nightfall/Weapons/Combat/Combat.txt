@@ -1,6 +1,0 @@
-Rifles
-Pistol
-Machete
-Knives
-Machine Gun
-Grenade
