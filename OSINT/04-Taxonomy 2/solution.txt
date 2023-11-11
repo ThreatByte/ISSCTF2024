@@ -1,3 +1,1 @@
-EspionageCTF{Unit42} or EspionageCTF{Palo Alto Networks}
-EspionageCTF{Ukraine}
-EspionageCTF{masterbootrecord}
+EspionageCTF{Ruinous Ursa}
