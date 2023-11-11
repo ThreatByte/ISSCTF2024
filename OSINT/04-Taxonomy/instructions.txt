@@ -1,4 +1,2 @@
-What is the name of the software used by this specific threat actor.
-This challenge is a two step approach.
+What is the name of the software used by this specific threat actor do you know?
 
-Find the Threat Actor Name and Based on Threat Actor name find the tool.
