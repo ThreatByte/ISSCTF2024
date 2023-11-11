@@ -1,1 +1,2 @@
-I'm trying to do some research can you tell me based on the picture what is the name of this threat actor?
+I'm trying to do some research can you tell me based on the picture what is the name of this threat actor,
+What Regions were targeted and What is the first technique id under Impact?
