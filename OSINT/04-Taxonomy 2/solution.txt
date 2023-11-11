@@ -1,1 +1,3 @@
 EspionageCTF{Unit42} or EspionageCTF{Palo Alto Networks}
+EspionageCTF{Ukraine}
+EspionageCTF{}
