@@ -1,1 +1,2 @@
 EspionageCTF{Ruinous Ursa}
+EspionageCTF{Ukraine}
