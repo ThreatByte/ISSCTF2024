@@ -1,4 +1,0 @@
-Do you know what the Military Alphabet is?
-Mix of Crypto/Forensic
-What Transposition cipher is used on section three of the KRYPTOS Sculptur
-Decrypt use python cryptography fernet library
