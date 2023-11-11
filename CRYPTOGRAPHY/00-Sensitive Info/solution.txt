@@ -1,2 +1,1 @@
-The Flag is EspionageCTF{Lt. Colonel Edward Drake}
-The Flag is EspionageCTF{Edward Drake}
+EspionageCTF{R@D_F0x_$}
