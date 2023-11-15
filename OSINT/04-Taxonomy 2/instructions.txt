@@ -1,1 +1,5 @@
-I'm trying to do some research can you tell me What Regions were targeted, What is the first technique id under Impact, and What sysinternals tool is used for privilege escalation.
+I'm trying to do some threat intelligence. Based on the photo you will need to lookup what is the name of the threat actor.
+The flag is the following:
+Let me know what Regions were targeted 
+What is the first technique id under impact
+What sysinternals tool is used for privilege escalation.
