@@ -1,5 +1,5 @@
 I'm trying to do some threat intelligence. Based on the photo you will need to lookup what is the name of the threat actor.
 The flag is the following:
-Let me know what Regions were targeted 
-What is the first technique id under impact
-What sysinternals tool is used for privilege escalation.
+1. Let me know what Regions were targeted 
+2. What is the first technique id under impact
+3. What sysinternals tool is used for privilege escalation.
