@@ -1,0 +1,3 @@
+Our analysis found a leak of a companies credentials.
+We need to determine if this specific companies credentials were leaked. 
+Can you find the user Timothy and decrypt his password?
