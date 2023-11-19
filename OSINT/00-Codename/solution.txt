@@ -1,1 +1,1 @@
-The Flag is EspionageCTF{CKSPHERE}
+EspionageCTF{CKSPHERE}
