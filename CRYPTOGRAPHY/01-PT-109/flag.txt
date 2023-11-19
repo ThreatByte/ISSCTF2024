@@ -1,1 +1,0 @@
-EspionageCTF{PLAYFAIR_IS_NOT_SO_FAIR}
