@@ -15,3 +15,8 @@ Solution:
 Flag: EspionageCTF{MessW1thTh3BestD1eL1keTh3Rest}
 
 I am writing this challenge assuming that you will be using Docker again for this CTF, but if not, feel free to reach out to me on Discord and I can make changes to the challenge to make it work as needed.
+
+
+===
+You may test the challenge by running "docker-compose up" in this directory.
+===
