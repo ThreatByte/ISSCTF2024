@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(40, 40, 0, 0.3), rgba(0, 40, 0, 0.3) 90%
+  );
+}
+
+.App {
+  color: white;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure particles are rendered behind other elements */
+}
+.terminal {
+  text-align: center;
+  margin: 20px;
+  font-family: VT323, monospace;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 80px;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mute {
+  color: gray;
+}
+
+.cursor {
+  display: inline-block;
+  width: 20px; 
+  height: 50px; 
+  background-color: #ffffff;
+  animation: blink 1s infinite; 
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.name {
+  animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+.left {
+  padding-top: 20px;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.email {
+  border: 2px solid #333;
+  padding: 10px;
+  background: linear-gradient(to left, #0c0c0c, #111);
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+.glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.1), 0 0 15px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1), 0 0 25px rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.1), 0 0 35px rgba(255, 255, 255, 0.1);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1), 0 0 15px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1), 0 0 25px rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.1), 0 0 35px rgba(255, 255, 255, 0.1), 0 0 40px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.App::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+::selection {
+  background: orange;
+  color: black;
+  text-shadow: none;
+}

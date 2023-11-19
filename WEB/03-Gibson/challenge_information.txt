@@ -1,0 +1,17 @@
+Author: sher (or) uhh (or) 753787171730751498
+
+There is 2 services which run for this challenge.
+
+One is using port 3000, this is the react app which is a front end.
+Another is using port 3721, this is a node.js express app which is the API.
+
+Solution:
+1. View the source code of the react app
+2. See API.js file. This contains a commented out DEVELOPMENT_API_KEY which is used to make requests.
+3. Make POST requests to each of the API endpoints, one contains a quote from the hackers movie for most commonly used passwords as a hint...
+4. The /internal endpoint gives an error if using the normal PRODUCTION_API_KEY, use the DEVELOPMENT_API_KEY.
+5. Error saying "password" parameter is missing. Either can be found by bruteforcing or watching the damn 5 second video... Correct password is "god"
+
+Flag: EspionageCTF{MessW1thTh3BestD1eL1keTh3Rest}
+
+I am writing this challenge assuming that you will be using Docker again for this CTF, but if not, feel free to reach out to me on Discord and I can make changes to the challenge to make it work as needed.
