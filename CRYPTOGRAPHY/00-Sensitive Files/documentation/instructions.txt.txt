@@ -1,1 +1,0 @@
-Decrypt the message to obtain information about the flag.
