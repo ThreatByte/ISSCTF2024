@@ -1,4 +1,8 @@
-""" MUST CREATE GLOBAL VAR FOR J so both functions can share same varible rather then them having 2 different types of j, then the reverse the shuffling algo an build the function/"" 
+""" MUST CREATE GLOBAL VAR FOR J so both functions can share same varible rather then them having 2 different types of j, then the reverse the shuffling algo an build the function"""
+
+### USING THE HINT THEY CAN DO GOOGLE REVERSE IMAGE SEARCH TO BRING THEM TO A SITE WITH THE FLOW CHART OF THE FISHER YATES ALGO 
+
+
 
 SOulition: 
 import random
