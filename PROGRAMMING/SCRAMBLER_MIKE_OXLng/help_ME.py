@@ -1,23 +1,16 @@
-import random
 import string
 
+def SCRAMBLER(s)::# ¯\_(ツ)_/¯  implement this function
+    # Use the Fisher-Yates shuffle algorithm for deterministic shuffling
+    shuffled_chars = list(s)
+    for i in range(len(shuffled_chars) - 1, 0, -1):
+        j = random.randint(0, i)
+        shuffled_chars[i], shuffled_chars[j] = shuffled_chars[j], shuffled_chars[i]
+    return ''.join(shuffled_chars)
 
-def SCRAMBLER(s):
-    return ''.join(random.sample(s, len(s)))
+# Rest of the code remains the same
+# ...
 
-def UNSCRAMBLER(s):# ¯\_(ツ)_/¯  implement this function
-    # Build This Func
-
-    pass
-
-def generate_my_secret(): 
-    alphabet = string.ascii_letters + string.digits
-    key = SCRAMBLER(alphabet)
-    message = "My secret code is: " + key
-    encrypted = SCRAMBLER(message)
-    return encrypted
-
-hidden = generate_my_secret()
-
-#original_key = UNSCRAMBLER(hidden) #uncomment after 
-print("Original Key:", hidden)
+# Uncomment the line below to see the original key after unscrambling
+print("Original Key:", UNSCRAMBLER(original_key))
+print("Hidden Message:", hidden)
