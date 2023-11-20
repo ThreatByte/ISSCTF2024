@@ -1,6 +1,7 @@
-""" MUST CREATE GLOBAL VAR FOR J so both functions can share same varible rather then them having 2 different types of j, then the reverse the shuffling algo an build the function"""
+""" MUST CREATE GLOBAL VAR FOR J so both functions can share same varible rather then them having 2 different types of j, then the reverse the shuffling algo an build the function
 
-### USING THE HINT THEY CAN DO GOOGLE REVERSE IMAGE SEARCH TO BRING THEM TO A SITE WITH THE FLOW CHART OF THE FISHER YATES ALGO
+Provided an .png of the flow chart of fisher yate algo, By utilizing Google's reverse image search, you can efficiently complete the code to gain a deeper understanding of the process. Additionally, consider the comment on the variable "j," emphasizing its consistency across both functions. To ensure uniformity, consider making the "j" variable a global function placed at the top of your program. 
+"""
 
 ## IMAGE LINK: https://www.researchgate.net/figure/steps-of-fisher-yates-shuffleAde-Ibijola-2012_fig1_319512374
 
