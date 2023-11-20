@@ -4,13 +4,14 @@ def SCRAMBLER(s):
     # Using  the fis... shuffle algorithm for shuffling
     shuffled_chars = list(s)
     for i in range(len(shuffled_chars) - 1, 0, -1):
-        j = random.randint(0, i)
+        j = random.randint(0, i) # wait whut 
         shuffled_chars[i], shuffled_chars[j] = shuffled_chars[j], shuffled_chars[i]
     return ''.join(shuffled_chars)
 
 
 def UNSCRAMBLER(s): # ¯\_(ツ)_/¯ implement this function
     #BUIL:D me ...!!!!!!!!!!!!!!!!!!!!!
+
     return 
 
 def generate_my_secret(): 
