@@ -1,3 +1,5 @@
+""" MUST CREATE GLOBAL VAR FOR J so both functions can share same varible rather then them having 2 different types of j, then the reverse the shuffling algo an build the function/"" 
+
 SOulition: 
 import random
 import string
