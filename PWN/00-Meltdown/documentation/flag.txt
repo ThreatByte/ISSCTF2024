@@ -1,1 +1,1 @@
-TODO
+EspionageCTF{F1r3_Burn1nG}
