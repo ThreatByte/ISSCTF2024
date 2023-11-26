@@ -1,0 +1,7 @@
+The competitor navigates to the login page which is exposed in one of the blog's pictures.
+
+The competitor creates an account and gets provided a default password after creating the account.
+
+The competitor logs in with the admin username which was also exposed in the picture and the default password.
+
+The flag is in the account dashboard
