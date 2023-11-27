@@ -1,0 +1,23 @@
+attempts: 0
+author: Jack
+category: Pwn
+connection_info: 
+description: Agent! Now that you've infiltrated the enemy's nuclear sub we need you sabotage the reactor. Can you get around the safety mechanisms they have in place?
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{F1r3_Burn1nG}
+hints:
+- content: Sometimes you have to take a few steps back to go forward
+  cost: 0
+name: Meltdown
+requirements:
+- 
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
