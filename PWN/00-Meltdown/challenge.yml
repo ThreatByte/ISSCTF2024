@@ -1,7 +1,6 @@
-attempts: 0
-author: Jack
+﻿attempts: 0
+author: Jack B
 category: Pwn
-connection_info: 
 description: Agent! Now that you've infiltrated the enemy's nuclear sub we need you sabotage the reactor. Can you get around the safety mechanisms they have in place?
 extra:
   decay: 30
