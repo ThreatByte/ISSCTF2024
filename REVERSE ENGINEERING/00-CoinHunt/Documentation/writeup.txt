@@ -1,0 +1,1 @@
+You will need to turn off defender execute program and use dynamic analysis to determine where the flag is located

@@ -1,0 +1,2 @@
+Run in Virtual Machine using Win 10 iso image.
+Also disable defender in the virtual machine to run the program
