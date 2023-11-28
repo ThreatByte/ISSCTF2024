@@ -1,1 +1,1 @@
-
+Welcome Aboard Agent. Your first mission is to search for the Agent IDs that constitute the flag from the given file. Seems like a rookie task.
