@@ -1,0 +1,3 @@
+To solve this challenge you must use a hexeditor to find the passphrase. Then use steghide to get info on the embedded message.
+command: steghide --info main.wave Passphrase Jupiter_Missle
+command: steghide --extract -sf main.wav -xf message.txt
