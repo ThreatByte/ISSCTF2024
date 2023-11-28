@@ -1,1 +1,1 @@
-The Flag is EspionageCTF{Dr. Billy Joe}
+The Flag is EspionageCTF{BillyJoe}
