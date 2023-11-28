@@ -1,3 +1,0 @@
-EspionageCTF{Ukraine}
-EspionageCTF{T1561.002}
-EspionageCTF{procdump}
