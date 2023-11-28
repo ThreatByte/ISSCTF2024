@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Chris
+category: Forensic
+description: I was sent this QR Code on Discord can you let me know if anything is hiding in it?
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{Sk$tchy_M@LwArE}
+hints:
+- content: What year did Sweden host the Fifa World Cup. Last two digits will help solve the challenge
+  cost: 0
+name: Sketchy
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 100
+version: '0.1'

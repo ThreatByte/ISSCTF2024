@@ -1,0 +1,1 @@
+To solve challenge put QR code in decoder then you will get output the output is base54 encoded put that in cyberchef to solve challenge.
