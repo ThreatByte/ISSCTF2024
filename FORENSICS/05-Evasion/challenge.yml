@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Chris
+category: Forensic
+description: I have this odd file on my desktop can you help me decode it.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{BL@ck_R&C00n}
+hints:
+- content: The tool is used by volt typhoon
+  cost: 0
+name: Evasion
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 100
+version: '0.1'
