@@ -1,0 +1,1 @@
+Use gpg --import name of key to find the owner of the pgp command is used in kali
