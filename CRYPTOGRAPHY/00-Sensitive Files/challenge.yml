@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Chris
+category: Crypto
+description: Decrypt the message to obtain information about the flag.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{R@D_F0x_$}
+hints:
+- content: 
+  cost: 0
+name: Sensitive Info
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 25
+version: '0.1'
