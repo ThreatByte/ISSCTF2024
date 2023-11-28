@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Jack B
+category: Crypto
+description: We've obtained a bunch of leaked passwords belonging to the target's employees, the problem is they're all encrypted with some sort of substitution cipher. Do you think you can have a crack at it? I've attached an encrypted password belonging to one of their higher ups I want you to decrypt. I've also included the other encrypted passwords, maybe you can figure out a pattern or something?
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{yeahthispasswordisbad }
+hints:
+- content: Is it just me or are there a lot of f's in here?
+  cost: 0
+name: Get Ur Freq On
+requirements:
+- 
+state: visible
+tags:
+- medium
+type: dynamic
+value: 100
+version: '0.1'
