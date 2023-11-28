@@ -1,4 +1,0 @@
-To solve this challenge you will need to understand the hint. 
-The hint states what fence does live stock stay in this would be RailFence if you look up cipher RailFence is one.
-Based on the Table Farmers Life.docx you will need to spread the values of each letter by 5 empty cells and the 6th being the new letter.
-The key is 4 meaning 4 letters can be inserted Railfence is a zig zag cipher.
