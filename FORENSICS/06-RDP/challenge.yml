@@ -1,0 +1,23 @@
+﻿attempts: 0
+author: Chris
+category: Forensic
+description: Our analysis has determined that we have detected lateral movement in our corporate environment. The only files we have are weird file extension called .bin can
+you help us determine who compromised our corporate enviornment.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{Green_Zombie$}
+hints:
+- content: Use RDPCacheSticher https://github.com/BSI-Bund/RdpCacheStitcher
+  cost: 0
+name: Evasion
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 100
+version: '0.1'
