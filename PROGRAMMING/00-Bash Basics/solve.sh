@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #the number list goes in numbers()
-horde=()
+id=()
 
 string=""
 
