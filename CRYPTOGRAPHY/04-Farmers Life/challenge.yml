@@ -1,0 +1,30 @@
+﻿attempts: 0
+author: Chris
+category: Crypto
+description: Hello Dr. George,
+
+We received a message from Mi6. We need your assistance in decrypting this message.
+The Encryption is Ssna$AIAwBwtrRHKoidceAnrh. The key length is 4. Please help us fast!. Once you decrypt it send
+the decrypted message back to us.
+
+Regards,
+Major Charles
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{SARAHIsAKnownBirdwatcher$}
+hints:
+- content: This fence will help keep the livestock from escaping. Argh!
+Width between each letter is 5 empty cells
+  cost: 0
+name: Farmers Life
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 100
+version: '0.1'
