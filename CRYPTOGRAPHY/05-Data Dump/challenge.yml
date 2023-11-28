@@ -1,0 +1,24 @@
+﻿attempts: 0
+author: Chris
+category: Crypto
+description: Our analysis found a leak of a companies credentials.
+We need to determine if this specific companies credentials were leaked. 
+Can you find the user Timothy and decrypt his password?
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{DOLPHIN}
+hints:
+- content: Mom makes a great sandwitch the abbreviation is 3 letters do you know?
+  cost: 0
+name: Data Dump
+requirements:
+- CoC
+state: visible
+tags:
+- intro
+type: dynamic
+value: 100
+version: '0.1'
