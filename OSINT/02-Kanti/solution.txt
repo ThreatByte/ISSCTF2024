@@ -1,2 +1,0 @@
-EspionageCTF{Ransomware}
-EspionageCTF{Locked_253_BTC.zip}
