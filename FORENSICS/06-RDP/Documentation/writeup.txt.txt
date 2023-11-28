@@ -1,0 +1,3 @@
+To solve this challenge you will need RDPCacheSticher to stich together what the desktop looks like
+The flag is scrambled so you are solving a puzzle
+

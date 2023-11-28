@@ -1,0 +1,2 @@
+Our analysis has determined that we have detected lateral movement in our corporate environment. The only files we have are weird file extension called .bin can
+you help us determine who compromised our corporate enviornment.
