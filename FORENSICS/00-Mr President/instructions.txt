@@ -2,5 +2,3 @@ Hello Agent Null, You are tasked with finding confidental information that is in
 Do not share with anyone else we dont want this information leaked it is a threat to national security!
 You must first find the pass phrase then use the passphrase to obtain confidential message. 
 
-Submit the challenge using the first name of the asset the flag format is EspionageCTF{xxxxx}
-
