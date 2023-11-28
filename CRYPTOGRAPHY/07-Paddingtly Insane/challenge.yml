@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Jack B
+category: Crypto
+description: We've uncovered an enemy flag storage facility but we haven't been able to get past their authentication system. We've included the source code, so you can use bruteforce locally and then connect and use the valid id.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{Encrypt3d_N0t_auth3nticat3d}
+hints:
+- content: There is an authentication system right?
+  cost: 0
+name: Paddingtly Insane
+requirements:
+- 
+state: visible
+tags:
+- hard
+type: dynamic
+value: 100
+version: '0.1'
