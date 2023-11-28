@@ -1,0 +1,1 @@
+We've uncovered an enemy flag storage facility but we haven't been able to get passed their authentication system. We've included the source code, so you can use bruteforce locally and then connect and use the valid id.
