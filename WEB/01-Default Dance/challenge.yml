@@ -1,0 +1,22 @@
+attempts: 0
+author: Jack B
+category: Web
+description: We've found a blog belonging to one of the most evil people on the planet. We need you to find a way into his account.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{bad_passw0rd_policy_smh}
+hints:
+- content: You've looked at all the pictures right?
+  cost: 0
+name: Default Dance
+requirements:
+- 
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
