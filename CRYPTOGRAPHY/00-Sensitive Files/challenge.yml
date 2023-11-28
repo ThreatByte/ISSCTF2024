@@ -18,5 +18,5 @@ state: visible
 tags:
 - intro
 type: dynamic
-value: 25
+value: 100
 version: '0.1'
