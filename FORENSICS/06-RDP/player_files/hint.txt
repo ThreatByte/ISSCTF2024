@@ -1,1 +1,2 @@
 Use RDPCacheSticher https://github.com/BSI-Bund/RdpCacheStitcher
+If you get a DLL Error you will need to install Visual Studio Click development with C++ and Scroll down on Installation Details Check MSVC v140
