@@ -1,1 +1,2 @@
 This fence will help keep the livestock from escaping. Argh!
+Width between each letter is 5 empty cells
