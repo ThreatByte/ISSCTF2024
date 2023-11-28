@@ -1,0 +1,2 @@
+To Solve this challenge you can use cyberchef to reverse the base64 encoded string. 
+Then decode it with base64
