@@ -1,0 +1,44 @@
+// Michael A N BabyX Ctf challenge using radar2
+#include <stdio.h>
+#include <string.h>
+
+
+
+long int asciiSum(const char character[]) {
+
+    int length = strlen(character); // length of str
+    long int sum = 0; // Initialize sum to 0
+
+    for (int i = 0; i < length; i++) {
+        int asciiValue = (int)character[i];
+        sum += asciiValue;
+
+    }// end of for
+    return sum; // Return the sum
+
+} // end of asciiSum(str);
+
+int main() {
+
+
+    char input1[50];
+    int key = 521; // < -- sum of the ascii values for the string admin...
+
+    int sum;
+
+    printf("Please Enter in the Key word: "); // Prompt for username input
+    scanf("%s", &input1); // Store username input in input1
+    sum = asciiSum(input1);
+
+    printf(" string: %s|| sum = %d", input1, sum); // output
+
+    if (sum == 521) {
+        printf("\nCongratulations! IssCTF... (FLAG GOES HERE...)\n"); // Output message with FLAG
+    } else {
+        printf("\nIncorrect..."); // Exit
+    }
+
+
+    return 0;
+
+}// end of main
