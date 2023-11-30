@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//run in docker this not for contestants
+
 
 int main() {
     //char username[50];
