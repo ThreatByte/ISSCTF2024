@@ -1,1 +1,1 @@
-To solve this challenge use cyber chef reverse then decode with base64.
+To solve this challenge go to cyberchef and first use the decode reverse cipher then decode base64.
