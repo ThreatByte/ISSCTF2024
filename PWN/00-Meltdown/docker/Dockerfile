@@ -5,9 +5,9 @@ RUN apt-get update
 COPY meltdown.c /home/meltdown/meltdown.c
 COPY flag.txt /home/meltdown/flag.txt
 
-RUN gcc meltdown.c -o meltdown.sh
-
 WORKDIR /home/meltdown/
+
+RUN gcc meltdown.c -o meltdown.sh
 
 CMD ["nsjail",                             \
         "-Ml",                            \
