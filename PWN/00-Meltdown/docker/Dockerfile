@@ -7,9 +7,9 @@ RUN apt install gcc -y
 COPY meltdown.c /home/meltdown/meltdown.c
 COPY flag.txt /home/meltdown/flag.txt
 
-WORKDIR /home/meltdown/
-
 RUN gcc /home/meltdown/meltdown.c -o /home/meltdown/meltdown.sh
+
+WORKDIR /home/meltdown/
 
 CMD ["nsjail",                             \
         "-Ml",                            \
