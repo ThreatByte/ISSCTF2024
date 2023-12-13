@@ -2,12 +2,12 @@ FROM ghcr.io/google/nsjail/nsjail:latest
 
 RUN apt-get update
 
-COPY meltdown.c /home/meltdown/meltdown.c
+COPY testOldSource.c /home/meltdown/testOldSource.c
 COPY flag.txt /home/meltdown/flag.txt
 
 WORKDIR /home/meltdown/
 
-RUN gcc meltdown.c -o meltdown.sh
+RUN gcc testOldSource.c -o testOldMeltdown.sh
 
 CMD ["nsjail",                             \
         "-Ml",                            \
@@ -16,5 +16,5 @@ CMD ["nsjail",                             \
         "--chroot", "/",            \
         "--cwd", "/home/meltdown/",        \
         "--",                     \
-        "./meltdown.sh"  \
+        "./testOldMeltdown.sh"  \
         ]
