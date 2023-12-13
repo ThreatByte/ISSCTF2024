@@ -1,13 +1,15 @@
 FROM ghcr.io/google/nsjail/nsjail:latest
 
 RUN apt-get update
+RUN apt upgrade -y
+RUN apt install gcc -y
 
 COPY meltdown.c /home/meltdown/meltdown.c
 COPY flag.txt /home/meltdown/flag.txt
 
 WORKDIR /home/meltdown/
 
-RUN gcc meltdown.c -o meltdown.sh
+RUN gcc /home/meltdown/meltdown.c -o /home/meltdown/meltdown.sh
 
 CMD ["nsjail",                             \
         "-Ml",                            \
