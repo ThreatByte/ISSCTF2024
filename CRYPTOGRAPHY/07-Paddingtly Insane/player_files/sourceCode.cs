@@ -50,7 +50,7 @@ class MainReturnValTest
         Console.WriteLine("Welcome to the Flag Storage Facility. Please enter your 32-character, encrypted, authentication string to access the flag:");
         String result = Authenticate(args[0]);
 
-        if (!String.IsNullOrEmpty(result))
+        if (!String.IsNullOrEmpty(result)){
             Console.WriteLine("Welcome to the Flag Storage Facility!");
             Console.WriteLine("FLAG");
         }
