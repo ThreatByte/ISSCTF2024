@@ -2,16 +2,10 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 
-
-/*
- * TODO:
- * Change key
- * Use input instead of commandline arg
- */
-
-
 class MainReturnValTest
 {
+    private static string flagfile = "pathway/to/flag.txt";
+
     static String Authenticate(string id)
     {
         String val = String.Empty; 
@@ -47,12 +41,14 @@ class MainReturnValTest
 
     static void Main(string[] args)
     {
+        String flag = File.ReadAllText(flagfile);
         Console.WriteLine("Welcome to the Flag Storage Facility. Please enter your 32-character, encrypted, authentication string to access the flag:");
         String result = Authenticate(args[0]);
 
         if (!String.IsNullOrEmpty(result)){
             Console.WriteLine("Welcome to the Flag Storage Facility!");
-            Console.WriteLine("FLAG");
+            Console.WriteLine(args[0]);
+            Console.WriteLine(flag);
         }
     }
 }
