@@ -1,0 +1,1 @@
+We're investigating a ransomware case on one of our systems. The perps left a note, we want you to find more info about this file. Perhaps if it's been observed with any other names?
