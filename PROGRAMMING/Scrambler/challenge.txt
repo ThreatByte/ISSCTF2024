@@ -1,0 +1,4 @@
+You have been given the source code another nation uses to encrypt there messages. We were able to capture one of the encrypted messages " Hidden Message: y secret code is: spionageCTF{I_Like_SCRAMBLED_EGGS}EM" but we need you to build the function to unscramble it 
+
+
+(IN THE CODE THE HIDDEN MESSAGE IN PYTHON IS AN EXAMPLE)
