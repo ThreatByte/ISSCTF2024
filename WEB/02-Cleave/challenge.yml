@@ -1,0 +1,22 @@
+attempts: 0
+author: Varun R
+category: Web
+description:Our Cyber Division found a fishy Agent Portal resembling our own. Investigate it and find the flag.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{u5e_sEcUr3_t3MpL@tiNg_eNgin3s}
+hints:
+- content: None
+  cost: 0
+name: Cleave
+requirements:
+- 
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
