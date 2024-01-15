@@ -11,7 +11,7 @@ flags:
 hints:
 - content: None
   cost: 0
-name: Bash Horde
+name: Bash Basics
 requirements:
 - 
 state: visible
