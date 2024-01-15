@@ -1,0 +1,22 @@
+attempts: 0
+author: Varun R
+category: Cryptography
+description: During a covert operation in Seoul, Nightfall manages to breach the enemies communication network and intercepts an encrypted message. Use you decryption skills and help out your organization to find the enemies future plans
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+-EspionageCTF{r0t_m@Y_N0t_b3_rEc1pROC@teD_5omEt1M3s}
+hints:
+- content: Odd "47 ->" or Even "1 ->"
+  cost: 0
+name: Rotveiller
+requirements:
+- 
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
