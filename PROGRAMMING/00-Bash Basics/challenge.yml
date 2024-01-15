@@ -1,0 +1,22 @@
+attempts: 0
+author: Varun R
+category: Programming
+description: Welcome Aboard Agent. Your first mission is to search for the Agent IDs that constitute the flag from the given file. Seems like a rookie task.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{bash_scriptting's_super_handyy}
+hints:
+- content: None
+  cost: 0
+name: Bash Horde
+requirements:
+- 
+state: visible
+tags:
+- easy
+type: dynamic
+value: 100
+version: '0.1'
