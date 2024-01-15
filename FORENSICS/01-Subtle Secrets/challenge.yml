@@ -1,0 +1,24 @@
+attempts: 0
+author: Varun R
+category: Forensics
+description: Agent Twilight tried to send something before his Mission. The image looks blurry maybe it was taken in haste, or he was hiding something in it. 
+
+Find the flag from the given file.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+-EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG}
+hints:
+- content: Something you check everytime you try a Forensic Challenge.
+  cost: 0
+name: Subtle Secrets
+requirements:
+- 
+state: visible
+tags:
+- medium
+type: dynamic
+value: 100
+version: '0.1'
