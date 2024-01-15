@@ -1,0 +1,23 @@
+attempts: 0
+author: Varun R
+category: Forensics
+description: Next Mission:HQ received an email file containing a conversation between Agent Spike and an Asset from Washington D.C. regarding Crypto Transactions made by the Troupe. They suspect someone from inside the agency might have manipulated the mail while delivering it to the HQ. 
+
+Determine whether any content/contents of the email which you believe may have been manipulated and your forensic skills to find the origin date of the latest email.
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{2023-09-08 12:30:26}
+hints:
+- content: Enter the flag in EDT in the following format:yyyy-mm-dd hh:mm:ss (e.g., 2008-11-28 05:17:11) 
+  cost: 0
+name: Infiltrated Inbox
+requirements:
+- 
+state: visible
+tags:
+- medium
+type: dynamic
+value: 100
+version: '0.1'
