@@ -1,0 +1,22 @@
+attempts: 0
+author: Varun R
+category: Cryptography
+description: Finally, our Asset delivered something. Decrypt the contents of the text file.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{PLAYFAIR_IS_NOT_SO_FAIR}
+hints:
+- content: Submit the Flag in our Format:e.g. if the answer was THISISTHEFLAG:EspionageCTF{THIS_IS_THE_FLAG} as the flag.
+  cost: 0
+name: PT-109
+requirements:
+- 
+state: visible
+tags:
+- medium
+type: dynamic
+value: 100
+version: '0.1'
