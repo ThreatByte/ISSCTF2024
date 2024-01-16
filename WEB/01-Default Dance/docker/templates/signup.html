@@ -1,0 +1,13 @@
+<head>
+        <title>Signup</title>
+
+</head>
+<body>
+	<h1>Signup Page</h1>
+	<form method="POST" action="">
+		{{ form.hidden_tag() }}
+		{{ form.username }}
+		{{ form.submit }}
+	</form>
+	<a href="{{url_for('login')}}">Have an account? Login here</a>
+</body>
