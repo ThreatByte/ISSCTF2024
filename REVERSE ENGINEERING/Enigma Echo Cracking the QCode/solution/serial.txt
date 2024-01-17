@@ -1,0 +1,10 @@
+serial-number: 2024-ba5d5a8219784516fb3a1043bd093e25
+
+Python code:
+ImgLoader.exe password: Str34mC1ph3r_0v3rl04d --> B2C3D4E5.DAT
+
+2C3D4E5F.DAT
+QR image password: Encrypt0r_K3yMast3r!
+
+CTF Flag:
+EspionageCTF{Gl1tch_1n_Th3_M4tr1x}
