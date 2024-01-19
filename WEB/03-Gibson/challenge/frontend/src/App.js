@@ -5,7 +5,6 @@ import { API } from './Api.js'
 function App() {
   const currentUrl = window.location.href;
   const urlObject = new URL(currentUrl);
-  urlObject.port = '3721';
   const modifiedUrl = urlObject.href;
   const baseUrl = modifiedUrl;
   const api = API(baseUrl);
