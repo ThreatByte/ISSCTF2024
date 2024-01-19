@@ -9,7 +9,7 @@ extra:
 flags:
 - EspionageCTF{u5e_sEcUr3_t3MpL@tiNg_eNgin3s}
 hints:
-- content: None
+- content: What is SSTI?
   cost: 0
 name: Cleave
 requirements:
