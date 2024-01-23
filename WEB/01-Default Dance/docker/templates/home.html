@@ -1,12 +1,31 @@
 <head>
-        <title>Home</title>
+        <title>Evil Blog</title>
+        <style>
+        body {background-color: red;}
+        </style>
 
 </head>
 <body>
-	<h1>Home Page</h1>
+	<h1>Welcome to My Evil Blog</h1>
+	<h3>Meant to keep you updated on my nefarious activities</h3>
 	<br>
+	<br>
+	<h2>Latest:</h2>
+	<img src="{{url_for('static', filename='money.jpg')}}"/>
+	<p>Here's some money...THAT I STOLE!</p>
+	<br>
+	<hr>
+	<img src="{{url_for('static', filename='laser.jpg')}}"/>
+	<p>Just a little something I've been working on. Nothing too serious.</p>
+	<br>
+	<hr>
 	<img src="{{url_for('static', filename='loggingIn.png')}}"/>
 	<p>Here's me logging in. Surely something you'll never do >:)</p>
+	<br>
+	<hr>
+	<img src="{{url_for('static', filename='shawn.jpeg')}}"/>
+	<p>Here's my friend Shawn. Everyone say hi Shawn.</p>
+	<br>
 </body>
 
 
