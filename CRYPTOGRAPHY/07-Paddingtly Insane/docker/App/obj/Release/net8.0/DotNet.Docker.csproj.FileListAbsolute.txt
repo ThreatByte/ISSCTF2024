@@ -1,0 +1,14 @@
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/DotNet.Docker
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/DotNet.Docker.deps.json
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/DotNet.Docker.runtimeconfig.json
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/DotNet.Docker.dll
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/DotNet.Docker.pdb
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.AssemblyInfoInputs.cache
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.AssemblyInfo.cs
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.dll
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/refint/DotNet.Docker.dll
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.pdb
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/DotNet.Docker.genruntimeconfig.cache
+/home/kali/07-Paddingtly Insane/docker/App/obj/Release/net8.0/ref/DotNet.Docker.dll

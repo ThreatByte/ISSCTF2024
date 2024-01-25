@@ -1,0 +1,5 @@
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/publish/DotNet.Docker
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/publish/DotNet.Docker.dll
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/publish/DotNet.Docker.deps.json
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/publish/DotNet.Docker.runtimeconfig.json
+/home/kali/07-Paddingtly Insane/docker/App/bin/Release/net8.0/publish/DotNet.Docker.pdb
