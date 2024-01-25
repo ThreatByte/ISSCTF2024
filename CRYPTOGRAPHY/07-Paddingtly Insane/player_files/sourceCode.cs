@@ -45,7 +45,7 @@ class MainReturnValTest
         if (!String.IsNullOrEmpty(result)){
             Console.WriteLine("Welcome to the Flag Storage Facility!");
             Console.WriteLine(args[0]);
-            Console.WriteLine("EspionageCTF{Encrypt3d_N0t_auth3nticat3d}");
+            Console.WriteLine("EspionageCTF{NOT_THE_FLAG}");
         }
     }
 }
