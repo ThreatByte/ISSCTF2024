@@ -3,8 +3,8 @@
 A | A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 B | B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
 C | C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
-D | D E F G H I J K L M N O P Q R S T U V W X Y Z A B C                KEY: H M J B Z O || ()
-E | E F G H I J K L M N O P Q R S T U V W X Y Z A B C D               Word: L V R C P I || ()
+D | D E F G H I J K L M N O P Q R S T U V W X Y Z A B C                KEY: H M J B Z O 
+E | E F G H I J K L M N O P Q R S T U V W X Y Z A B C D               Word: L V R C P I 
 F | F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
 G | G H I J K L M N O P Q R S T U V W X Y Z A B C D E F			
 H | H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
