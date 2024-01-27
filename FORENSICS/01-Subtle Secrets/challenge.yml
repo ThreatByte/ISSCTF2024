@@ -11,9 +11,9 @@ extra:
 flags:
 -EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG}
 hints:
-- content: Encryption seems to be advanced.
+- content: Encryption seems to be advanced
   cost: 0
-- content: Title might be the key to something.
+- content: Title might be the key to something
   cost: 0
 name: Subtle Secrets
 requirements:
