@@ -13,7 +13,7 @@ flags:
 hints:
 - content: Encryption seems to be advanced
   cost: 0
-- content: Title might be the key to something
+- content:Searching for a Key? Take a closer look at the Challenge
   cost: 0
 name: Subtle Secrets
 requirements:
