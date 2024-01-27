@@ -1,9 +1,9 @@
 attempts: 0
 author: Varun R
 category: Forensics
-description: Agent Twilight tried to send something before his Mission. The view is different, maybe he was trying to tell us something. 
+description: Agent Twilight tried to send something before his Mission. The view seems different, maybe it was taken in haste or, maybe he was trying to tell us something. 
 
-Find the flag from the given file.
+Find the flag from the given file
 extra:
   decay: 30
   initial: 100
