@@ -11,9 +11,7 @@ extra:
 flags:
 -EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG}
 hints:
-- content: Encryption seems to be advanced
-  cost: 0
-- content:Searching for a Key? Take a closer look at the Challenge
+- content: Encryption seems to be advanced, but standard
   cost: 0
 name: Subtle Secrets
 requirements:
