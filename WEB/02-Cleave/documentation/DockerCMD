@@ -1,0 +1,2 @@
+sudo docker build  .
+sudo docker run -p 4000:80 docker-image:latest
