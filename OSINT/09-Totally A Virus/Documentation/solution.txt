@@ -1,2 +1,2 @@
 Participant must upload the file to VirusTotal.
-In the Details tab under Names, the flag will be preset as one of the other names that the file had been uploaded as.
+In the Details tab under Names, the flag will be present as one of the other names that the file had been uploaded as.
