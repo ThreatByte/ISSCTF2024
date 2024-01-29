@@ -1,1 +1,6 @@
-Use Google to help solve problem answer is stuxnet
+This was a tricky challenge it is based off of Cyber Espionage Malware.
+Step1: If you highlight the entire text and put it into google you will get the wrong results.
+Step2: What you should be doing is looking up Cyber Espionage malware that was created in a national labratory. 
+Step3: You will see articles from Antivirus Vendors about Russian based APTs/Malware they were not created with good intentions.
+Step4: The one that was created with good intentions was Stuxnet. https://www.wired.com/2011/01/inl-and-stuxnet/
+Step5: Refernce https://www.youtube.com/watch?v=nd1x0csO3hU
