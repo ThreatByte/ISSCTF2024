@@ -1,0 +1,19 @@
+﻿attempts: 0
+author: Jack B
+category: OSINT
+description: We're investigating a ransomware case on one of our systems. The perps left a note, we want you to find more info about this file. Perhaps if it's been observed with any other names?
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- EspionageCTF{Y0u_F0und_M3}
+name: Totally A Virus
+requirements:
+- 
+state: visible
+tags:
+- medium
+type: dynamic
+value: 100
+version: '0.1'
