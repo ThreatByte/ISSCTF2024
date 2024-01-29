@@ -15,7 +15,7 @@ pdftotext key.pdf key.txt
 cat key.txt > The title is The Secret 
                TheBestEspionage
 
-So now we have the AES 128-bit secret key to decode the AES-encoded text 
+So now we have the AES 128-bit secret key to decode the AES-encoded text which is TheBestEspionage
 
 From there use an AES decoder and you'll get the first half of the flag >  EspionageCTF{1MInT_i
 
