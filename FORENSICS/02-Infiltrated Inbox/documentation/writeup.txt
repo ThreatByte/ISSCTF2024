@@ -1,0 +1,2 @@
+If you verify the DKIM header of the eml file, it doesn't pass the DKIM verification. Take a close look at the DKIM header and in the bh section you can see a base64 encoded data. 
+Use a base64 decoder to get the flag
