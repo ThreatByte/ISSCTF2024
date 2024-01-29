@@ -1,7 +1,10 @@
-Exiftool The-Best-Espionage.png > Nothing Suspicious, no Hints
-Strings The-Best-Espionage.png > Some folder named Secret can be seen
+Run Exiftool, the metadata doesn't seem to have any hints or any other data related to the flag.
+Run Strings The-Best-Espionage.png > folder named Secret can be seen
 unzip The-Best-Espionage.png
+You'll see a directory called Secrets, navigate  to the Secrets directory
 cd Secrets
+After navigating to the directory, there are 3 directories with different short stories
+Run stegsnow -C without the pass on all the folders. Finally, the Black Box directory has some encoded data.
 cd Black Box
 stegsnow -C Black Box.txt > output the AES encoded part of the flag
 
@@ -9,11 +12,13 @@ To find the Key for the decryption, look at pdf
 
 pdftotext key.pdf key.txt
 
-cat key.txt > The title is the Secret 
-              TheBestEspionage
+cat key.txt > The title is The Secret 
+               TheBestEspionage
+
+So now we have the AES 128-bit secret key to decode the AES-encoded text 
 
 From there use an AES decoder and you'll get the first half of the flag >  EspionageCTF{1MInT_i
 
-To get the second half, use stegosuite and use the first half of the flag as the password.
+To get the second half, as the 2nd hint suggests,  use stegosuite and use the first half of the flag as the password. 
 
 You'll get the rest of the flag which is EspionageCTF{1MInT_i5_R3@l1y_pU2zL1nG}
