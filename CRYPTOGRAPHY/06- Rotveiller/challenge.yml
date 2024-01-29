@@ -9,7 +9,7 @@ extra:
 flags:
 -EspionageCTF{r0t_m@Y_N0t_b3_rEc1pROC@teD_5omEt1M3s}
 hints:
-- content: Odd "47 ->" or Even "1 ->"
+- content: E: Odd "47 ->" or Even "1 ->" , D: ?
   cost: 0
 name: Rotveiller
 requirements:
