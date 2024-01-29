@@ -2,5 +2,3 @@ I am known for giving vital information!
 I created anti-aircraft weapons systems for specific military. 
 I am considered a traider by my government but i am not. I am known for a specific code name do you know?
 
-Submit the challenge using the following format EspionageCTF{xxxxxxxx}
-
