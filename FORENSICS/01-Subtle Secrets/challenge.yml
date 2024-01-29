@@ -13,12 +13,13 @@ flags:
 hints:
 - content: Encryption seems to be advanced, but standard
   cost: 0
+- content: First half of the flag might help you get the second  
+  cost: 0
 name: Subtle Secrets
 requirements:
 - 
 state: visible
-tags:
-- medium
+tags: hard
 type: dynamic
 value: 100
 version: '0.1'
