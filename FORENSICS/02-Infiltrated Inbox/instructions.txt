@@ -1,1 +1,0 @@
-Twilight receives a seemingly ordinary email containing sensitive information from a known contact within the agency. However, upon closer examination, he senses that the message may have been manipulated or tampered with by an unknown adversary. Analyze the email and find the flag. 
