@@ -16,7 +16,7 @@ requirements:
 - 
 state: visible
 tags:
-- easy
+- medium
 type: dynamic
 value: 100
 version: '0.1'
