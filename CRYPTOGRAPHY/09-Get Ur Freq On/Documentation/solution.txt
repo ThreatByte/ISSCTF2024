@@ -1,1 +1,27 @@
 User needs to perform frequency analysis to determine which letters were substituted for which.
+a = s
+b = e
+c = n
+d = m
+e = f
+f = u
+g = p
+h = x
+i = w
+j = t
+k = g
+l = c
+m = y
+n = v
+o = i
+p = h
+q = b
+r = z
+s = d
+t = l
+u = k
+v = a
+w = j
+x = q
+y = r
+z = o
