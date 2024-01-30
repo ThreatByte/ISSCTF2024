@@ -1,12 +1,13 @@
-As per the instruction, the mail dates have been manipulated.
+According to the instructions, the mail dates have been manipulated.
 
-You gotta reverse all the manipulated dates and content present in the DKIM header section. To get the flag you just need to verify the DKIM header contents.
-To get the range of the dates where the email might have been received, use a Gmail MIME boundary decoder.
+You have to reverse all the manipulated dates back to the original date and content in the DKIM header section. To get the flag you just need to verify the DKIM header contents.
+To get the range of the dates where the email might have been received, use a Gmail MIME boundary decoder to get the range of time the mail might've been sent or you can also use the epoch timestamp present in the 
+DKIM header.
 After getting the boundary, write a Python script to verify the DKIM for the range of dates and times you got from the boundary, refer to the Python script.
 Run the Python script and you'll get the date that got matched with the verified DKIM 
 
 Refer to the original eml file in the documentation folder to reverse the original data and contents. I've also included an Excel file that shows the original and manipulated dates.
-To get a better understanding of the challenge and how to solve it, see the references.
+To get a better understanding of the challenge and how to solve it, watch the YouTube video(link below) and see the references. 
 
 
 
