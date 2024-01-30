@@ -1,1 +1,2 @@
 Use google enter Bitcoin Address
+Resources: https://www.malwarebytes.com/blog/detections/ransom-ryuk
