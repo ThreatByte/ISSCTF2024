@@ -1,1 +1,7 @@
-aa
+I know this was one hard and tricky Challenge in the OSINT Category
+Step-1: As the description said Sarah Charlote was the person were looking for, and it says that she loves to take a lot of pictures. The most common social media for posting pictures today is Instagram.
+Step-2: We search for "Sarah Charlote" on Instagram and we find a user named "sarah_charlote33", this can be confirmed that is the correct profile because theres a note that the profile belongs to ISSessions.
+Step-3: By just overlooking the profile we can see that she really likes her dog (4 posts dedicated to the dog), she evens has the dog's name over her marriage engagement date. And the "Candytopia" posts also mentions about her dog.
+Step-4: In the 7th post we can se that the date that "Sarah" acquired her dog has been her missing *puzzle* which from from the post it was 3 years and 6 months ago (42) months to be specific.
+Step-5: We calculate the date from the post and we get to December 2019.
+Step-6: We know that she loves Maximus and that she got him in December 2019, in here we just try to input the date, so basically the dogs name and the date. (In the description it's said that Special characters are not needed so we dont need to worry about any special characters)
