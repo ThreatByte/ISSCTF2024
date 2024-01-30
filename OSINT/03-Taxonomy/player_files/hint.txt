@@ -1,1 +1,1 @@
-Security Companies have different Taxonomy naming conventions.
+Vendors have different Taxonomy naming conventions. This image is based on Microsoft's
