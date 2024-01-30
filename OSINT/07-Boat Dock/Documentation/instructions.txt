@@ -1,3 +1,4 @@
 I am hiking at this location 54.6436540065792, -129.76707688328335. My boat is anchored close by.
 My gps has stopped working i need to make it back before night i remember there is a marina roughly 44km away.
 Can you tell me the name of the village that the marina is located in?
+Resources: https://earth.google.com/web/@54.5671768,-130.37860794,106.4324624a,7040.71832133d,35y,0h,0t,0r
