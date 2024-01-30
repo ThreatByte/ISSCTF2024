@@ -7,7 +7,7 @@ extra:
   initial: 100
   minimum: 30
 flags:
-- EspionageCTF{yeahthispasswordisbad }
+- EspionageCTF{yeahthispasswordisbad}
 hints:
 - content: Is it just me or are there a lot of f's in here?
   cost: 0
@@ -16,7 +16,7 @@ requirements:
 - 
 state: visible
 tags:
-- medium
+- hard
 type: dynamic
 value: 100
 version: '0.1'
