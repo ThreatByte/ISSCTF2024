@@ -1,1 +1,4 @@
-Image Protrays Night Tsunami. Microsoft new threat taxonomy is weather and based on Night Tsunami you can determine Pegasus
+Image Protrays Night Tsunami. Microsoft new threat taxonomy is weather and based on Night Tsunami you can determine NSO Group the look up Pegasus
+Resources: https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/
+           https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide
+           https://darknetdiaries.com/episode/100/
