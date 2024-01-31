@@ -3,12 +3,13 @@ Part 1: I guess my ciphers are still stronger than a military base hehehe... may
 
 K5UHSIDEN5SXGIDJOQQHG3LFNRWCAZTJONUHSIDJNYQGQZLSMUXC4LRABIFH26LWMFRGW2DZIF5U2QKKORWG42DVOZYHO6SMEBWGC5LIOBVHA5LQEB3G44DBOV3GUIDZNBXHM4JAOR3GSIDQOZWSALDWNNRGCIDWPJ5HAIDZOBTWE23IPFQSA3DLEB5GQ6TQNJWHSVZAH5YHUIDIPFUHOIDIMFUHS5ZANRVSA5TBNB4XOIDUMIQHI3BANB4XA3DLOVUGSIDIEBUHA6LINMQGE3BANRRHQID2NBXWU2BAFR3GG5TVEBWEW===
  
-part2: we convert here from rot7 to text (apply a rot19)
+part2: we convert here from rot to text (apply a rot19)
 Part 2: Why does it smell fishy in here... 
 
 }yvabkhyA{MAJtlnhuvpwzL lauhpjpup vnpauvj yhnvq tvi pvm ,vkba vzzp ypgbkhya lk zhzpjlyW ?pz hyhw hahyw lk vahyw tb tl hyplkuhi h hpyhk bl lbx zhojh ,vcvu lK
   
 part3: we just mirror the image back and take the flag, which is in portuguese, and if needed you can convert from little endian to big endian but it wont be really needed.
+
 Part 3: I guess you have to reflect on your actions trying to break my cypher, Im also bilingual :) 
 
 }rotudarT{FTCmeganoipsE etnaicini ogitnoc ragoj mob iof ,odut ossi rizudart ed sasicerP ?is arap atarp ed otarp mu me ariednab a airad ue euq sahca ,ovon eD
