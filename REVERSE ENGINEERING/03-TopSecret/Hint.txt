@@ -1,0 +1,3 @@
+**READ BEFORE EXECUTING EXE**
+*Run the Executable in a virtualized environment(Windows 10). Take a Snapshot of clean state before you run EXE File.
+If you have any Questions submit a ticket on discord*
