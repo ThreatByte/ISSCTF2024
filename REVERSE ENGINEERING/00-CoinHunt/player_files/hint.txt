@@ -1,2 +1,3 @@
-Run in Virtual Machine using Win 10 iso image.
-Also disable defender in the virtual machine to run the program
+**READ BEFORE EXECUTING EXE**
+*Run the Executable in a virtualized environment(Windows 10). Take a Snapshot of clean state before you run EXE File.
+If you have any Questions submit a ticket on discord*
