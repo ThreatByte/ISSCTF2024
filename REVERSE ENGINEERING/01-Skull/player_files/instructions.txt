@@ -1,1 +1,6 @@
-You are tasked with analyzing the file in a virtual machine to determine what the exectuable is doing.
+Note:
+**Run in a Virtual Machine not on Phyiscal Operating System**
+**Turn off Defender in Virtualized Enviornment**
+**Password Infected**
+
+I have seem to have lost a priceless artifact. Please help me find it. The skull has a secret message inside. Armour file before running.
