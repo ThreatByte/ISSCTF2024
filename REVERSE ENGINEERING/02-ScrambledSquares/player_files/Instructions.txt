@@ -1,0 +1,12 @@
+CTF Challenge: Brief Hints
+
+    •    Stage 1: Investigate the Python code’s method of serial number generation. Focus on MD5 and the relevance of dates.
+    •    Stage 2: Look for hidden elements within the code for the password.
+    •    Stage 3: Use the password wisely to reveal a new file format.
+    •    Stage 4: The executable holds clues about its own usage.
+    •    Stage 5: Apply what you learned from the exe analysis for decryption.
+    •    Stage 6: A QR code awaits, holding more than meets the eye.
+    •    Stage 7: Decode the QR contents to transition to a new file type.
+    •    Stage 8: Unpack the final layer to uncover the flag.
+
+Remember: Each clue is a piece of a larger puzzle. Pay attention to the details and think creatively.
