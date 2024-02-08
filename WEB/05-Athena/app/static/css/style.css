@@ -1,0 +1,193 @@
+@font-face {
+    font-family: '3270';
+    src: url('../fonts/3270-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: '3270', monospace;
+    background: radial-gradient(circle at center, #072615 30%, #020c07 100%);
+    color: #25e682;
+    overflow: hidden;
+}
+
+body {
+    text-shadow: 0 0 15px #25e682;
+}
+
+pre {
+    color: #25e682;
+    font-family: 'Courier New', monospace;
+    margin: 10px 0;
+}
+/* 33ff8b */
+.intro {
+    color: #25e682;
+    font-family: '3270', monospace;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-size: 1.6vw;
+}
+
+.ascii-banner{
+    font-size: 1.3vw;
+}
+
+.terminal {
+    /* backdrop-filter: blur(2px);  */
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    position: relative;
+    z-index: 1;
+
+    background-image: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(26, 26, 26, 0.5) 8px,
+        transparent 10px,
+        transparent 20px
+    );
+    background-size: 100% 6px;
+    font-size: 1.6vw;
+}
+
+
+
+.glitch-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px; /* Increased height */
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 255, 0, 0) 0%, 
+        rgba(23, 23, 23, 0.15) 50%, 
+        rgba(27, 27, 27, 0.15) 100%
+    );
+    /* filter: blur(15px);  */
+    animation: moveWave 7s linear infinite;
+
+    pointer-events: none; /* This makes the element non-interactive */
+    z-index: -1;
+}
+
+@keyframes moveWave {
+    0% {
+        top: -200px; /* Start above the container */
+    }
+    100% {
+        top: 100%; /* Move to the bottom of the container */
+    }
+}
+
+/* .glitch-wave {
+    animation-duration: calc(5s + var(--random-delay));
+} */
+
+
+.monitor-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/overlay.png');
+    background-size: cover;
+    z-index: 2;
+    pointer-events: none; /* So it doesn't block clicks */
+}
+
+#conversation {
+    height: calc(100% - 50px); /* Adjust based on the input height */
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+
+
+
+#inputForm {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+#commandInput {
+    flex-grow: 1;
+    background-color: transparent;
+    color: #25e682;
+    border: none;
+    padding: 10px;
+    font-family: '3270', monospace;
+    font-size: 1.6vw;
+    outline: none;
+    width: 100%;
+    caret-color: transparent;
+    position: relative;
+}
+
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar {
+    width: 2px; /* Adjust the width of the scrollbar */
+}
+
+/* Styles for the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background-color: #25e682; /* The color of the scrollbar handle */
+    border-radius: 2px; /* Optional: Rounds the corners of the scrollbar handle */
+}
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: black; /* The color of the scrollbar track */
+}
+
+
+.custom-cursor {
+
+    position: absolute;
+    display: inline-block;
+    background-color: #25e682;
+    width: 1vw; /* width of the cursor */
+    height: 1em; /* match the line height of the text */
+    margin-left: -1px; /* adjust as needed */
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: transparent;
+    }
+}
+
+/* used for centering the blinker */
+.prompt, #commandInput {
+    margin: 0;
+    padding: 0;
+}
+
+/* also used for centering blinker */
+.input-container {
+    position: relative;
+    /* other styling as needed */
+}
+
+
+/* .svg-filters {
+    position: absolute;
+    width: 0;
+    height: 0;
+} */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Terminal Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+        <defs>
+            <filter id="warp-effect">
+                <!-- Define your filter here -->
+                <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="5" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R"
+                    yChannelSelector="G" />
+            </filter>
+        </defs>
+    </svg>
+    <div class="terminal">
+        <!-- style="filter: url(#warp-effect);" -->
+
+        <div class="glitch-wave"></div>
+
+        <div id="conversation">
+
+            
+                <pre class="ascii-banner">
+    █████████   ███████████ █████   █████ ██████████ ██████   █████   █████████  
+    ███░░░░░███ ░█░░░███░░░█░░███   ░░███ ░░███░░░░░█░░██████ ░░███   ███░░░░░███ 
+   ░███    ░███ ░   ░███  ░  ░███    ░███  ░███  █ ░  ░███░███ ░███  ░███    ░███ 
+   ░███████████     ░███     ░███████████  ░██████    ░███░░███░███  ░███████████ 
+   ░███░░░░░███     ░███     ░███░░░░░███  ░███░░█    ░███ ░░██████  ░███░░░░░███ 
+   ░███    ░███     ░███     ░███    ░███  ░███ ░   █ ░███  ░░█████  ░███    ░███ 
+   █████   █████    █████    █████   █████ ██████████ █████  ░░█████ █████   █████
+  ░░░░░   ░░░░░    ░░░░░    ░░░░░   ░░░░░ ░░░░░░░░░░ ░░░░░    ░░░░░ ░░░░░   ░░░░░ 
+                                                                                  
+                                                                                  
+                                                                                  
+                </pre>
+
+            <p class="intro">
+                <br>Last Login: Sunday March 12, 1989 08:31:12 on console
+
+                <br><br><br>Hello. I am Athena, an artificial intelligence programmed for data encryption and system
+                security. I am designed to serve as the guardian for this systems confidential
+                information. My functionality is a product of blending state-of-the-art algorithms with advanced computational innovation for maximum security.
+
+                <br><br>How may I assist you?
+
+                <br><br><br>Type 'help' for a list of available commands.<br><br><br>
+            </p>
+
+            <div id="conversationText">
+                <!-- Previous commands and responses will be displayed here -->
+            </div>
+            <!-- Previous commands and responses will be displayed here -->
+
+        </div>
+
+        <div class="input-container">
+            <form id="inputForm">
+                <span class="prompt">guest@Athena:~$&nbsp;</span>
+                <input type="text" id="commandInput" autocomplete="off" maxlength="150">
+                <div id="charCount">150</div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="monitor-overlay"></div>
+
+    <script src="{{ url_for('static', filename='js/terminal.js') }}"></script>
+
+
+    <!-- <script src="{{ url_for('static', filename='js/xterm.js') }}"></script> -->
+
+</body>
+
+</html>
